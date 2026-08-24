@@ -13,6 +13,7 @@ An offline-friendly, GitHub Pages-ready field guide for Pokémon Heart & Soul v2
 - Johto/Kanto badge tracking, caught progress and local save export/import
 - Optional Cloudflare Worker sync pattern, disabled until an endpoint is configured
 - Installable static web app with local assets and runtime offline caching
+- SteamGridDB-sourced Ho-Oh/Lugia presentation art, logo and icon cached locally for offline use, with an artwork-derived Heart/Soul colour palette
 
 Walkthroughs are intentionally excluded.
 
@@ -43,4 +44,4 @@ Then open `http://127.0.0.1:8892/`.
 - Release and documentation commits are recorded in `sources/source-lock.json`.
 - Dataset authority and gaps are documented in `sources/source-inventory.md`.
 - `.github/workflows/pages.yml` validates the checked-in generated data before publishing.
-- No remote repository, push, Pages deployment, or sync-worker deployment should occur until the local MVP is explicitly approved.
+- The public repository and GitHub Pages deployment are updated only after local validation.

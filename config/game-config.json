@@ -7,11 +7,13 @@
   "saveFormat": "pokemon-heart-soul-v2-field-guide-save",
   "description": "An offline-friendly field guide for Pokémon Heart & Soul v2.0.2.",
   "branding": {
-    "logo": "assets/art/heart-soul-title.png",
-    "hero": "assets/type-backgrounds/fire.jpg",
-    "icon": "assets/pokemon/ho_oh.png",
-    "primary": "#f13f57",
-    "accent": "#f2bb4b"
+    "logo": "assets/art/steamgriddb-heart-soul-logo.png",
+    "hero": "assets/art/steamgriddb-heart-soul-hero.png",
+    "icon": "assets/art/steamgriddb-heart-soul-icon.png",
+    "primary": "#d94b2b",
+    "accent": "#f0c400",
+    "secondary": "#3060c0",
+    "celebrationColours": ["#d94b2b", "#f0c400", "#3060c0", "#69c8e8", "#f5f1df", "#ffffff"]
   },
   "features": {
     "moves": true,

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pokemon-heart-soul-v2-0-2-core-v2';
+const CACHE_NAME = 'pokemon-heart-soul-v2-0-2-core-v3';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -17,7 +17,9 @@ const CORE_ASSETS = [
   './data/battle-data.js',
   './data/move-tutor-data.js',
   './data/curated-builds.js',
-  './assets/art/heart-soul-title.png',
+  './assets/art/steamgriddb-heart-soul-hero.png',
+  './assets/art/steamgriddb-heart-soul-logo.png',
+  './assets/art/steamgriddb-heart-soul-icon.png',
   './assets/fonts/atlantis-international.ttf',
   './assets/pokemon/ho_oh.png',
   './assets/ui/pokeball.svg'

@@ -4,18 +4,18 @@
   "description": "An offline-friendly field guide for Pokémon Heart & Soul v2.0.2.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#11070a",
-  "theme_color": "#f13f57",
+  "background_color": "#081726",
+  "theme_color": "#d94b2b",
   "icons": [
     {
-      "src": "assets/pokemon/ho_oh.png",
-      "sizes": "any",
+      "src": "assets/art/steamgriddb-heart-soul-icon.png",
+      "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/pokemon/ho_oh.png",
-      "sizes": "any",
+      "src": "assets/art/steamgriddb-heart-soul-icon.png",
+      "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "maskable"
     }
