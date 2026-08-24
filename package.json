@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-heart-soul-v2-field-guide",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:hns": "node scripts/import-hns-v2-docs.mjs",
+    "baseline:fetch": "node scripts/fetch-pokeapi-baseline.mjs",
+    "merge:data": "node scripts/merge-guide-data.mjs",
+    "build:data": "node scripts/merge-guide-data.mjs && node scripts/build-data-wrappers.mjs",
+    "build:hns": "node scripts/import-hns-v2-docs.mjs && node scripts/merge-guide-data.mjs && node scripts/build-data-wrappers.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/audit-provenance.mjs && node scripts/audit-hns-v2-import.mjs",
+    "audit:provenance": "node scripts/audit-provenance.mjs",
+    "audit:assets": "node scripts/audit-assets.mjs",
+    "audit:hns": "node scripts/audit-hns-v2-import.mjs",
+    "sync:test": "node sync-worker/test/worker.test.mjs",
+    "sync:deploy": "npx wrangler@4.112.0 deploy --cwd sync-worker",
+    "serve": "python -m http.server 8892 --bind 127.0.0.1"
+  }
+}

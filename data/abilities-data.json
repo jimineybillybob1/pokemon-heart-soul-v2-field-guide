@@ -1,0 +1,4956 @@
+[
+  {
+    "id": 1,
+    "key": "stench",
+    "name": "Stench",
+    "description": "May cause a foe to flinch.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "key": "drizzle",
+    "name": "Drizzle",
+    "description": "Summons rain in battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "key": "speed-boost",
+    "name": "Speed Boost",
+    "description": "Gradually boosts Speed.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "key": "battle-armor",
+    "name": "Battle Armor",
+    "description": "Blocks critical hits.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "key": "sturdy",
+    "name": "Sturdy",
+    "description": "Negates 1-hit KO attacks.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "key": "damp",
+    "name": "Damp",
+    "description": "Prevents self-destruction.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "key": "limber",
+    "name": "Limber",
+    "description": "Prevents paralysis.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "key": "sand-veil",
+    "name": "Sand Veil",
+    "description": "Ups evasion in a sandstorm.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "key": "static",
+    "name": "Static",
+    "description": "Paralyzes on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "key": "volt-absorb",
+    "name": "Volt Absorb",
+    "description": "Turns electricity into HP.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "key": "water-absorb",
+    "name": "Water Absorb",
+    "description": "Changes water into HP.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "key": "oblivious",
+    "name": "Oblivious",
+    "description": "Prevents attraction.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "key": "cloud-nine",
+    "name": "Cloud Nine",
+    "description": "Negates weather effects.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "key": "compound-eyes",
+    "name": "Compound Eyes",
+    "description": "Raises accuracy.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "key": "insomnia",
+    "name": "Insomnia",
+    "description": "Prevents sleep.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "key": "color-change",
+    "name": "Color Change",
+    "description": "Changes type to foe's move.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "key": "immunity",
+    "name": "Immunity",
+    "description": "Prevents poisoning.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "key": "flash-fire",
+    "name": "Flash Fire",
+    "description": "Powers up if hit by fire.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "key": "shield-dust",
+    "name": "Shield Dust",
+    "description": "Prevents added effects.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "key": "own-tempo",
+    "name": "Own Tempo",
+    "description": "Prevents confusion.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "key": "suction-cups",
+    "name": "Suction Cups",
+    "description": "Firmly anchors the body.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "key": "intimidate",
+    "name": "Intimidate",
+    "description": "Lowers the foe's Attack.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "key": "shadow-tag",
+    "name": "Shadow Tag",
+    "description": "Prevents the foe's escape.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "key": "rough-skin",
+    "name": "Rough Skin",
+    "description": "Hurts to touch.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "key": "wonder-guard",
+    "name": "Wonder Guard",
+    "description": "Only “Supereffective” hits.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "key": "levitate",
+    "name": "Levitate",
+    "description": "Not hit by Ground attacks.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "key": "effect-spore",
+    "name": "Effect Spore",
+    "description": "Leaves spores on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "key": "synchronize",
+    "name": "Synchronize",
+    "description": "Passes on status problems.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "key": "clear-body",
+    "name": "Clear Body",
+    "description": "Prevents ability reduction.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "key": "natural-cure",
+    "name": "Natural Cure",
+    "description": "Heals upon switching out.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "key": "lightning-rod",
+    "name": "Lightning Rod",
+    "description": "Draws electrical moves.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "key": "serene-grace",
+    "name": "Serene Grace",
+    "description": "Promotes added effects.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "key": "swift-swim",
+    "name": "Swift Swim",
+    "description": "Raises Speed in rain.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "key": "chlorophyll",
+    "name": "Chlorophyll",
+    "description": "Raises Speed in sunshine.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "key": "illuminate",
+    "name": "Illuminate",
+    "description": "Encounter rate increases.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "key": "trace",
+    "name": "Trace",
+    "description": "Copies special ability.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "key": "huge-power",
+    "name": "Huge Power",
+    "description": "Raises Attack.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "key": "poison-point",
+    "name": "Poison Point",
+    "description": "Poisons foe on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "key": "inner-focus",
+    "name": "Inner Focus",
+    "description": "Prevents flinching.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "key": "magma-armor",
+    "name": "Magma Armor",
+    "description": "Prevents freezing.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "key": "water-veil",
+    "name": "Water Veil",
+    "description": "Prevents burns.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "key": "magnet-pull",
+    "name": "Magnet Pull",
+    "description": "Traps Steel-type Pokémon.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "key": "soundproof",
+    "name": "Soundproof",
+    "description": "Avoids sound-based moves.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "key": "rain-dish",
+    "name": "Rain Dish",
+    "description": "Slight HP recovery in rain.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "key": "sand-stream",
+    "name": "Sand Stream",
+    "description": "Summons a sandstorm.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "key": "pressure",
+    "name": "Pressure",
+    "description": "Raises foe's PP usage.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "key": "thick-fat",
+    "name": "Thick Fat",
+    "description": "Heat-and-cold protection.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "key": "early-bird",
+    "name": "Early Bird",
+    "description": "Awakens quickly from sleep.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "key": "flame-body",
+    "name": "Flame Body",
+    "description": "Burns the foe on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "key": "run-away",
+    "name": "Run Away",
+    "description": "Makes escaping easier.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "key": "keen-eye",
+    "name": "Keen Eye",
+    "description": "Prevents loss of accuracy.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "key": "hyper-cutter",
+    "name": "Hyper Cutter",
+    "description": "Prevents Attack reduction.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "key": "pickup",
+    "name": "Pickup",
+    "description": "May pick up items.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "key": "truant",
+    "name": "Truant",
+    "description": "Moves only every two turns.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "key": "hustle",
+    "name": "Hustle",
+    "description": "Trades accuracy for power.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "key": "cute-charm",
+    "name": "Cute Charm",
+    "description": "Infatuates on contact.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "key": "plus",
+    "name": "Plus",
+    "description": "Powers up with Minus.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "key": "minus",
+    "name": "Minus",
+    "description": "Powers up with Plus.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "key": "forecast",
+    "name": "Forecast",
+    "description": "Changes with the weather.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "key": "sticky-hold",
+    "name": "Sticky Hold",
+    "description": "Prevents item theft.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "key": "shed-skin",
+    "name": "Shed Skin",
+    "description": "Heals the body by shedding.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "key": "guts",
+    "name": "Guts",
+    "description": "Ups Attack if suffering.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "key": "marvel-scale",
+    "name": "Marvel Scale",
+    "description": "Ups Defense if suffering.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "key": "liquid-ooze",
+    "name": "Liquid Ooze",
+    "description": "Draining causes injury.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "key": "overgrow",
+    "name": "Overgrow",
+    "description": "Ups Grass moves in a pinch.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "key": "blaze",
+    "name": "Blaze",
+    "description": "Ups Fire moves in a pinch.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "key": "torrent",
+    "name": "Torrent",
+    "description": "Ups Water moves in a pinch.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "key": "swarm",
+    "name": "Swarm",
+    "description": "Ups Bug moves in a pinch.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "key": "rock-head",
+    "name": "Rock Head",
+    "description": "Prevents recoil damage.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "key": "drought",
+    "name": "Drought",
+    "description": "Summons sunlight in battle.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "key": "arena-trap",
+    "name": "Arena Trap",
+    "description": "Prevents fleeing.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "key": "vital-spirit",
+    "name": "Vital Spirit",
+    "description": "Prevents sleep.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "key": "white-smoke",
+    "name": "White Smoke",
+    "description": "Prevents ability reduction.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "key": "pure-power",
+    "name": "Pure Power",
+    "description": "Raises Attack.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "key": "shell-armor",
+    "name": "Shell Armor",
+    "description": "Blocks critical hits.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "key": "air-lock",
+    "name": "Air Lock",
+    "description": "Negates weather effects.",
+    "generation": "generation-iii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "key": "tangled-feet",
+    "name": "Tangled Feet",
+    "description": "Ups evasion if confused.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "key": "motor-drive",
+    "name": "Motor Drive",
+    "description": "Electricity raises Speed.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "key": "rivalry",
+    "name": "Rivalry",
+    "description": "Powers up against rivals.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "key": "steadfast",
+    "name": "Steadfast",
+    "description": "Flinching raises Speed.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "key": "snow-cloak",
+    "name": "Snow Cloak",
+    "description": "Ups evasion in Hail or Snow.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "key": "gluttony",
+    "name": "Gluttony",
+    "description": "Eats Berries early.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "key": "anger-point",
+    "name": "Anger Point",
+    "description": "Critical hits raise Attack.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "key": "unburden",
+    "name": "Unburden",
+    "description": "Using a hold item ups Speed.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "key": "heatproof",
+    "name": "Heatproof",
+    "description": "Heat and burn protection.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "key": "simple",
+    "name": "Simple",
+    "description": "Prone to wild stat changes.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "key": "dry-skin",
+    "name": "Dry Skin",
+    "description": "Prefers moisture to heat.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "key": "download",
+    "name": "Download",
+    "description": "Adjusts power favorably.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "key": "iron-fist",
+    "name": "Iron Fist",
+    "description": "Boosts punching moves.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "key": "poison-heal",
+    "name": "Poison Heal",
+    "description": "Restores HP if poisoned.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "key": "adaptability",
+    "name": "Adaptability",
+    "description": "Boosts same type attacks.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "key": "skill-link",
+    "name": "Skill Link",
+    "description": "Multi-hit moves hit 5 times.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "key": "hydration",
+    "name": "Hydration",
+    "description": "Cures status in rain.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "key": "solar-power",
+    "name": "Solar Power",
+    "description": "Powers up in sunshine.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 95,
+    "key": "quick-feet",
+    "name": "Quick Feet",
+    "description": "Ups Speed if suffering.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "key": "normalize",
+    "name": "Normalize",
+    "description": "Moves become Normal-type.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "key": "sniper",
+    "name": "Sniper",
+    "description": "Boosts critical hits.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "key": "magic-guard",
+    "name": "Magic Guard",
+    "description": "Only damaged by attacks.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "key": "no-guard",
+    "name": "No Guard",
+    "description": "Ensures that all moves hit.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "key": "stall",
+    "name": "Stall",
+    "description": "Always moves last.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "key": "technician",
+    "name": "Technician",
+    "description": "Boosts weaker moves.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "key": "leaf-guard",
+    "name": "Leaf Guard",
+    "description": "Blocks status in sunshine.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "key": "klutz",
+    "name": "Klutz",
+    "description": "Can't use hold items.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "key": "mold-breaker",
+    "name": "Mold Breaker",
+    "description": "Moves hit through abilities.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "key": "super-luck",
+    "name": "Super Luck",
+    "description": "Critical hits land often.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "key": "aftermath",
+    "name": "Aftermath",
+    "description": "Fainting damages the foe.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "key": "anticipation",
+    "name": "Anticipation",
+    "description": "Senses dangerous moves.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "key": "forewarn",
+    "name": "Forewarn",
+    "description": "Determines a foe's move.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "key": "unaware",
+    "name": "Unaware",
+    "description": "Ignores stat changes.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "key": "tinted-lens",
+    "name": "Tinted Lens",
+    "description": "Ups “not very effective”.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "key": "filter",
+    "name": "Filter",
+    "description": "Weakens “supereffective”.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "key": "slow-start",
+    "name": "Slow Start",
+    "description": "Takes a while to get going.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "key": "scrappy",
+    "name": "Scrappy",
+    "description": "Hits Ghost-type Pokémon.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 114,
+    "key": "storm-drain",
+    "name": "Storm Drain",
+    "description": "Draws in Water moves.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "key": "ice-body",
+    "name": "Ice Body",
+    "description": "HP recovery in Hail or Snow.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "key": "solid-rock",
+    "name": "Solid Rock",
+    "description": "Weakens “supereffective”.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "key": "snow-warning",
+    "name": "Snow Warning",
+    "description": "Summons snow in battle.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 118,
+    "key": "honey-gather",
+    "name": "Honey Gather",
+    "description": "May gather Honey.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "key": "frisk",
+    "name": "Frisk",
+    "description": "Checks a foe's item.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "key": "reckless",
+    "name": "Reckless",
+    "description": "Boosts moves with recoil.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "key": "multitype",
+    "name": "Multitype",
+    "description": "Changes type to its Plate.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "key": "flower-gift",
+    "name": "Flower Gift",
+    "description": "Allies power up in sunshine.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "key": "bad-dreams",
+    "name": "Bad Dreams",
+    "description": "Damages sleeping Pokémon.",
+    "generation": "generation-iv",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "key": "pickpocket",
+    "name": "Pickpocket",
+    "description": "Steals the foe's held item.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "key": "sheer-force",
+    "name": "Sheer Force",
+    "description": "Trades effects for power.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "key": "contrary",
+    "name": "Contrary",
+    "description": "Inverts stat changes.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "key": "unnerve",
+    "name": "Unnerve",
+    "description": "Foes can't eat Berries.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "key": "defiant",
+    "name": "Defiant",
+    "description": "Lowered stats up Attack.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "key": "defeatist",
+    "name": "Defeatist",
+    "description": "Gives up at half HP.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "key": "cursed-body",
+    "name": "Cursed Body",
+    "description": "Disables moves on contact.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "key": "healer",
+    "name": "Healer",
+    "description": "Heals partner Pokémon.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "key": "friend-guard",
+    "name": "Friend Guard",
+    "description": "Lowers damage to partner.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "key": "weak-armor",
+    "name": "Weak Armor",
+    "description": "Its stats change when hit.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "key": "heavy-metal",
+    "name": "Heavy Metal",
+    "description": "Doubles weight.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 135,
+    "key": "light-metal",
+    "name": "Light Metal",
+    "description": "Halves weight.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "key": "multiscale",
+    "name": "Multiscale",
+    "description": "Halves damage at full HP.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 137,
+    "key": "toxic-boost",
+    "name": "Toxic Boost",
+    "description": "Ups Attack if poisoned.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 138,
+    "key": "flare-boost",
+    "name": "Flare Boost",
+    "description": "Ups Sp. Atk if burned.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "key": "harvest",
+    "name": "Harvest",
+    "description": "May recycle a used Berry.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 140,
+    "key": "telepathy",
+    "name": "Telepathy",
+    "description": "Can't be damaged by an ally.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "key": "moody",
+    "name": "Moody",
+    "description": "Stats change gradually.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "key": "overcoat",
+    "name": "Overcoat",
+    "description": "Blocks weather and powder.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "key": "poison-touch",
+    "name": "Poison Touch",
+    "description": "Poisons foe on contact.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 144,
+    "key": "regenerator",
+    "name": "Regenerator",
+    "description": "Heals upon switching out.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 145,
+    "key": "big-pecks",
+    "name": "Big Pecks",
+    "description": "Prevents Defense loss.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 146,
+    "key": "sand-rush",
+    "name": "Sand Rush",
+    "description": "Ups Speed in a sandstorm.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 147,
+    "key": "wonder-skin",
+    "name": "Wonder Skin",
+    "description": "May avoid status problems.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "key": "analytic",
+    "name": "Analytic",
+    "description": "Moving last boosts power.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 149,
+    "key": "illusion",
+    "name": "Illusion",
+    "description": "Appears as a partner.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "key": "imposter",
+    "name": "Imposter",
+    "description": "Transforms into the foe.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "key": "infiltrator",
+    "name": "Infiltrator",
+    "description": "Passes through barriers.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 152,
+    "key": "mummy",
+    "name": "Mummy",
+    "description": "Spreads with contact.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 153,
+    "key": "moxie",
+    "name": "Moxie",
+    "description": "KOs raise Attack.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "key": "justified",
+    "name": "Justified",
+    "description": "Dark hits raise Attack.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 155,
+    "key": "rattled",
+    "name": "Rattled",
+    "description": "Raises Speed when scared.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "key": "magic-bounce",
+    "name": "Magic Bounce",
+    "description": "Reflects status moves.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 157,
+    "key": "sap-sipper",
+    "name": "Sap Sipper",
+    "description": "Grass increases Attack.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 158,
+    "key": "prankster",
+    "name": "Prankster",
+    "description": "Status moves go first.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 159,
+    "key": "sand-force",
+    "name": "Sand Force",
+    "description": "Powers up in a sandstorm.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 160,
+    "key": "iron-barbs",
+    "name": "Iron Barbs",
+    "description": "Hurts to touch.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "key": "zen-mode",
+    "name": "Zen Mode",
+    "description": "Transforms at half HP.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "key": "victory-star",
+    "name": "Victory Star",
+    "description": "Raises party accuracy.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "key": "turboblaze",
+    "name": "Turboblaze",
+    "description": "Moves hit through abilities.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "key": "teravolt",
+    "name": "Teravolt",
+    "description": "Moves hit through abilities.",
+    "generation": "generation-v",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "key": "aroma-veil",
+    "name": "Aroma Veil",
+    "description": "Prevents limiting of moves.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 166,
+    "key": "flower-veil",
+    "name": "Flower Veil",
+    "description": "Protects Grass-types.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "key": "cheek-pouch",
+    "name": "Cheek Pouch",
+    "description": "Eating Berries restores HP.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "key": "protean",
+    "name": "Protean",
+    "description": "Changes type to used move.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "key": "fur-coat",
+    "name": "Fur Coat",
+    "description": "Raises Defense.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 170,
+    "key": "magician",
+    "name": "Magician",
+    "description": "Steals the foe's held item.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "key": "bulletproof",
+    "name": "Bulletproof",
+    "description": "Avoids some projectiles.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 172,
+    "key": "competitive",
+    "name": "Competitive",
+    "description": "Lowered stats up Sp. Atk.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "key": "strong-jaw",
+    "name": "Strong Jaw",
+    "description": "Boosts biting moves.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 174,
+    "key": "refrigerate",
+    "name": "Refrigerate",
+    "description": "Normal moves become Ice.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 175,
+    "key": "sweet-veil",
+    "name": "Sweet Veil",
+    "description": "Prevents party from sleep.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 176,
+    "key": "stance-change",
+    "name": "Stance Change",
+    "description": "Transforms as it battles.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 177,
+    "key": "gale-wings",
+    "name": "Gale Wings",
+    "description": "Flying moves go first.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 178,
+    "key": "mega-launcher",
+    "name": "Mega Launcher",
+    "description": "Boosts pulse moves.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "key": "grass-pelt",
+    "name": "Grass Pelt",
+    "description": "Ups Defense in grass.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 180,
+    "key": "symbiosis",
+    "name": "Symbiosis",
+    "description": "Passes its item to an ally.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 181,
+    "key": "tough-claws",
+    "name": "Tough Claws",
+    "description": "Boosts contact moves.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 182,
+    "key": "pixilate",
+    "name": "Pixilate",
+    "description": "Normal moves become Fairy.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 183,
+    "key": "gooey",
+    "name": "Gooey",
+    "description": "Lowers Speed on contact.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 184,
+    "key": "aerilate",
+    "name": "Aerilate",
+    "description": "Normal moves become Flying.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 185,
+    "key": "parental-bond",
+    "name": "Parental Bond",
+    "description": "Moves hit twice.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 186,
+    "key": "dark-aura",
+    "name": "Dark Aura",
+    "description": "Boosts Dark moves.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 187,
+    "key": "fairy-aura",
+    "name": "Fairy Aura",
+    "description": "Boosts Fairy moves.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 188,
+    "key": "aura-break",
+    "name": "Aura Break",
+    "description": "Reverse aura abilities.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 189,
+    "key": "primordial-sea",
+    "name": "Primordial Sea",
+    "description": "Summons heavy rain.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 190,
+    "key": "desolate-land",
+    "name": "Desolate Land",
+    "description": "Summons intense sunlight.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 191,
+    "key": "delta-stream",
+    "name": "Delta Stream",
+    "description": "Summons strong winds.",
+    "generation": "generation-vi",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 192,
+    "key": "stamina",
+    "name": "Stamina",
+    "description": "Boosts Defense when hit.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 193,
+    "key": "wimp-out",
+    "name": "Wimp Out",
+    "description": "Flees at half HP.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 194,
+    "key": "emergency-exit",
+    "name": "Emergency Exit",
+    "description": "Flees at half HP.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 195,
+    "key": "water-compaction",
+    "name": "Water Compaction",
+    "description": "Water boosts Defense.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 196,
+    "key": "merciless",
+    "name": "Merciless",
+    "description": "Criticals poisoned foes.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 197,
+    "key": "shields-down",
+    "name": "Shields Down",
+    "description": "Shell breaks at half HP.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 198,
+    "key": "stakeout",
+    "name": "Stakeout",
+    "description": "Stronger as foes switch in.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 199,
+    "key": "water-bubble",
+    "name": "Water Bubble",
+    "description": "Guards from fire and burns.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 200,
+    "key": "steelworker",
+    "name": "Steelworker",
+    "description": "Powers up Steel moves.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 201,
+    "key": "berserk",
+    "name": "Berserk",
+    "description": "Boosts Sp. Atk at low HP.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 202,
+    "key": "slush-rush",
+    "name": "Slush Rush",
+    "description": "Raises Speed in Hail/Snow.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 203,
+    "key": "long-reach",
+    "name": "Long Reach",
+    "description": "Never makes contact.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "key": "liquid-voice",
+    "name": "Liquid Voice",
+    "description": "Makes sound moves Water.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 205,
+    "key": "triage",
+    "name": "Triage",
+    "description": "Healing moves go first.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 206,
+    "key": "galvanize",
+    "name": "Galvanize",
+    "description": "Normal moves turn Electric.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 207,
+    "key": "surge-surfer",
+    "name": "Surge Surfer",
+    "description": "Faster on electricity.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 208,
+    "key": "schooling",
+    "name": "Schooling",
+    "description": "Forms a school when strong.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 209,
+    "key": "disguise",
+    "name": "Disguise",
+    "description": "Decoy protects it once.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 210,
+    "key": "battle-bond",
+    "name": "Battle Bond",
+    "description": "Changes form after a KO.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 211,
+    "key": "power-construct",
+    "name": "Power Construct",
+    "description": "Cells aid it when weakened.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 212,
+    "key": "corrosion",
+    "name": "Corrosion",
+    "description": "Poisons any type.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 213,
+    "key": "comatose",
+    "name": "Comatose",
+    "description": "Always drowsing.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 214,
+    "key": "queenly-majesty",
+    "name": "Queenly Majesty",
+    "description": "Protects from priority.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 215,
+    "key": "innards-out",
+    "name": "Innards Out",
+    "description": "Hurts foe when defeated.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 216,
+    "key": "dancer",
+    "name": "Dancer",
+    "description": "Dances along with others.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "key": "battery",
+    "name": "Battery",
+    "description": "Boosts ally's Sp. Atk.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 218,
+    "key": "fluffy",
+    "name": "Fluffy",
+    "description": "Tougher but flammable.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "key": "dazzling",
+    "name": "Dazzling",
+    "description": "Protects from priority.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 220,
+    "key": "soul-heart",
+    "name": "Soul Heart",
+    "description": "KOs raise Sp. Atk.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 221,
+    "key": "tangling-hair",
+    "name": "Tangling Hair",
+    "description": "Lowers Speed on contact.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 222,
+    "key": "receiver",
+    "name": "Receiver",
+    "description": "Copies ally's ability.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 223,
+    "key": "power-of-alchemy",
+    "name": "Power Of Alchemy",
+    "description": "Copies ally's ability.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 224,
+    "key": "beast-boost",
+    "name": "Beast Boost",
+    "description": "KOs boost best stat.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 225,
+    "key": "rks-system",
+    "name": "Rks System",
+    "description": "Memories change its type.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 226,
+    "key": "electric-surge",
+    "name": "Electric Surge",
+    "description": "Field becomes Electric.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 227,
+    "key": "psychic-surge",
+    "name": "Psychic Surge",
+    "description": "Field becomes weird.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 228,
+    "key": "misty-surge",
+    "name": "Misty Surge",
+    "description": "Field becomes misty.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 229,
+    "key": "grassy-surge",
+    "name": "Grassy Surge",
+    "description": "Field becomes grassy.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 230,
+    "key": "full-metal-body",
+    "name": "Full Metal Body",
+    "description": "Prevents stat reduction.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 231,
+    "key": "shadow-shield",
+    "name": "Shadow Shield",
+    "description": "Halves damage at full HP.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 232,
+    "key": "prism-armor",
+    "name": "Prism Armor",
+    "description": "Weakens “supereffective”.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 233,
+    "key": "neuroforce",
+    "name": "Neuroforce",
+    "description": "Ups “supereffective”.",
+    "generation": "generation-vii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 234,
+    "key": "intrepid-sword",
+    "name": "Intrepid Sword",
+    "description": "Ups Attack on entry.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 235,
+    "key": "dauntless-shield",
+    "name": "Dauntless Shield",
+    "description": "Ups Defense on entry.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 236,
+    "key": "libero",
+    "name": "Libero",
+    "description": "Changes type to move's.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 237,
+    "key": "ball-fetch",
+    "name": "Ball Fetch",
+    "description": "Fetches failed Poké Ball.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 238,
+    "key": "cotton-down",
+    "name": "Cotton Down",
+    "description": "Lower Speed of all when hit.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 239,
+    "key": "propeller-tail",
+    "name": "Propeller Tail",
+    "description": "Ignores foe's redirection.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 240,
+    "key": "mirror-armor",
+    "name": "Mirror Armor",
+    "description": "Reflect stat decreases.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 241,
+    "key": "gulp-missile",
+    "name": "Gulp Missile",
+    "description": "If hit, spits prey from sea.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 242,
+    "key": "stalwart",
+    "name": "Stalwart",
+    "description": "Ignores foe's redirection.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 243,
+    "key": "steam-engine",
+    "name": "Steam Engine",
+    "description": "Fire or Water hits up Speed.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 244,
+    "key": "punk-rock",
+    "name": "Punk Rock",
+    "description": "Ups and resists sound.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 245,
+    "key": "sand-spit",
+    "name": "Sand Spit",
+    "description": "Creates a sandstorm if hit.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 246,
+    "key": "ice-scales",
+    "name": "Ice Scales",
+    "description": "Halves special damage.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "key": "ripen",
+    "name": "Ripen",
+    "description": "Doubles effect of Berries.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 248,
+    "key": "ice-face",
+    "name": "Ice Face",
+    "description": "Hail or Snow renew free hit.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 249,
+    "key": "power-spot",
+    "name": "Power Spot",
+    "description": "Powers up ally moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 250,
+    "key": "mimicry",
+    "name": "Mimicry",
+    "description": "Changes type on terrain.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 251,
+    "key": "screen-cleaner",
+    "name": "Screen Cleaner",
+    "description": "Removes walls of light.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 252,
+    "key": "steely-spirit",
+    "name": "Steely Spirit",
+    "description": "Boosts ally's Steel moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 253,
+    "key": "perish-body",
+    "name": "Perish Body",
+    "description": "Foe faints in 3 turns if hit.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 254,
+    "key": "wandering-spirit",
+    "name": "Wandering Spirit",
+    "description": "Trade abilities on contact.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 255,
+    "key": "gorilla-tactics",
+    "name": "Gorilla Tactics",
+    "description": "Ups Attack and locks move.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 256,
+    "key": "neutralizing-gas",
+    "name": "Neutralizing Gas",
+    "description": "All Abilities are nullified.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 257,
+    "key": "pastel-veil",
+    "name": "Pastel Veil",
+    "description": "Protects team from poison.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 258,
+    "key": "hunger-switch",
+    "name": "Hunger Switch",
+    "description": "Changes form each turn.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 259,
+    "key": "quick-draw",
+    "name": "Quick Draw",
+    "description": "Moves first occasionally.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 260,
+    "key": "unseen-fist",
+    "name": "Unseen Fist",
+    "description": "Contact evades protection.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 261,
+    "key": "curious-medicine",
+    "name": "Curious Medicine",
+    "description": "Remove ally's stat changes.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 262,
+    "key": "transistor",
+    "name": "Transistor",
+    "description": "Ups Electric-type moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 263,
+    "key": "dragons-maw",
+    "name": "Dragons Maw",
+    "description": "Ups Dragon-type moves.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 264,
+    "key": "chilling-neigh",
+    "name": "Chilling Neigh",
+    "description": "KOs boost Attack stat.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 265,
+    "key": "grim-neigh",
+    "name": "Grim Neigh",
+    "description": "KOs boost Sp. Atk stat.",
+    "generation": "generation-viii",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 268,
+    "key": "lingering-aroma",
+    "name": "Lingering Aroma",
+    "description": "Spreads with contact.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 269,
+    "key": "seed-sower",
+    "name": "Seed Sower",
+    "description": "Affects terrain when hit.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 270,
+    "key": "thermal-exchange",
+    "name": "Thermal Exchange",
+    "description": "Fire hits up Attack.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 271,
+    "key": "anger-shell",
+    "name": "Anger Shell",
+    "description": "Gets angry at half HP.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 272,
+    "key": "purifying-salt",
+    "name": "Purifying Salt",
+    "description": "Protected by pure salts.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 273,
+    "key": "well-baked-body",
+    "name": "Well Baked Body",
+    "description": "Strengthened by Fire.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 274,
+    "key": "wind-rider",
+    "name": "Wind Rider",
+    "description": "Ups Attack if hit by wind.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 275,
+    "key": "guard-dog",
+    "name": "Guard Dog",
+    "description": "Cannot be intimidated.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 276,
+    "key": "rocky-payload",
+    "name": "Rocky Payload",
+    "description": "Powers up Rock moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 277,
+    "key": "wind-power",
+    "name": "Wind Power",
+    "description": "Gets charged by wind.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 278,
+    "key": "zero-to-hero",
+    "name": "Zero To Hero",
+    "description": "Changes form on switch out.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 279,
+    "key": "commander",
+    "name": "Commander",
+    "description": "Commands from Dondozo.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 280,
+    "key": "electromorphosis",
+    "name": "Electromorphosis",
+    "description": "Gets Charged when hit.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 281,
+    "key": "protosynthesis",
+    "name": "Protosynthesis",
+    "description": "Sun boosts best stat.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 282,
+    "key": "quark-drive",
+    "name": "Quark Drive",
+    "description": "Elec. field ups best stat.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 283,
+    "key": "good-as-gold",
+    "name": "Good As Gold",
+    "description": "Avoids status moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 284,
+    "key": "vessel-of-ruin",
+    "name": "Vessel Of Ruin",
+    "description": "Lowers foes' sp. damage.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 285,
+    "key": "sword-of-ruin",
+    "name": "Sword Of Ruin",
+    "description": "Lowers foes' Defense.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 286,
+    "key": "tablets-of-ruin",
+    "name": "Tablets Of Ruin",
+    "description": "Lowers foes' damage.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 287,
+    "key": "beads-of-ruin",
+    "name": "Beads Of Ruin",
+    "description": "Lowers foes' Sp. Defense.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 288,
+    "key": "orichalcum-pulse",
+    "name": "Orichalcum Pulse",
+    "description": "Summons sunlight in battle.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 289,
+    "key": "hadron-engine",
+    "name": "Hadron Engine",
+    "description": "Field becomes Electric.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 290,
+    "key": "opportunist",
+    "name": "Opportunist",
+    "description": "Copies foe's stat change.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 291,
+    "key": "cud-chew",
+    "name": "Cud Chew",
+    "description": "Eats a used berry again.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "key": "sharpness",
+    "name": "Sharpness",
+    "description": "Strengthens slicing moves.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 293,
+    "key": "supreme-overlord",
+    "name": "Supreme Overlord",
+    "description": "Inherits fallen's strength.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 294,
+    "key": "costar",
+    "name": "Costar",
+    "description": "Copies ally's stat changes.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 295,
+    "key": "toxic-debris",
+    "name": "Toxic Debris",
+    "description": "Throws poison spikes if hit.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 296,
+    "key": "armor-tail",
+    "name": "Armor Tail",
+    "description": "Protects from priority.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 297,
+    "key": "earth-eater",
+    "name": "Earth Eater",
+    "description": "Eats ground to heal HP.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 298,
+    "key": "mycelium-might",
+    "name": "Mycelium Might",
+    "description": "Status moves never fail.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 299,
+    "key": "minds-eye",
+    "name": "Minds Eye",
+    "description": "Keen Eye and Scrappy.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 300,
+    "key": "supersweet-syrup",
+    "name": "Supersweet Syrup",
+    "description": "Lowers the foe's Evasion.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 301,
+    "key": "hospitality",
+    "name": "Hospitality",
+    "description": "Restores ally's HP.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 302,
+    "key": "toxic-chain",
+    "name": "Toxic Chain",
+    "description": "Moves can poison.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 304,
+    "key": "tera-shift",
+    "name": "Tera Shift",
+    "description": "Terastallizes upon entry.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 305,
+    "key": "tera-shell",
+    "name": "Tera Shell",
+    "description": "Resists all at full HP.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 306,
+    "key": "teraform-zero",
+    "name": "Teraform Zero",
+    "description": "Zeroes weather and terrain.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 307,
+    "key": "poison-puppeteer",
+    "name": "Poison Puppeteer",
+    "description": "Confuses poisoned foes.",
+    "generation": "generation-ix",
+    "_provenance": {
+      "origin": "mixed",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 314,
+    "key": "as-one-ice-rider",
+    "name": "As One Ice Rider",
+    "description": "Unnerve and Chilling Neigh.",
+    "_provenance": {
+      "origin": "custom",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 315,
+    "key": "as-one-shadow-rider",
+    "name": "As One Shadow Rider",
+    "description": "Unnerve and Grim Neigh.",
+    "_provenance": {
+      "origin": "custom",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 316,
+    "key": "embody-aspect-teal-mask",
+    "name": "Embody Aspect Teal Mask",
+    "description": "Raises Speed.",
+    "_provenance": {
+      "origin": "custom",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 317,
+    "key": "embody-aspect-hearthflame-mask",
+    "name": "Embody Aspect Hearthflame Mask",
+    "description": "Raises Attack.",
+    "_provenance": {
+      "origin": "custom",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 318,
+    "key": "embody-aspect-wellspring-mask",
+    "name": "Embody Aspect Wellspring Mask",
+    "description": "Raises Sp. Def.",
+    "_provenance": {
+      "origin": "custom",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  },
+  {
+    "id": 319,
+    "key": "embody-aspect-cornerstone-mask",
+    "name": "Embody Aspect Cornerstone Mask",
+    "description": "Raises Defense.",
+    "_provenance": {
+      "origin": "custom",
+      "overriddenFields": [
+        "id",
+        "key",
+        "name",
+        "description"
+      ]
+    }
+  }
+]

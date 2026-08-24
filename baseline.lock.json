@@ -1,0 +1,20 @@
+{
+  "status": "ready",
+  "provider": "pokeapi",
+  "apiDataRepository": "PokeAPI/api-data",
+  "apiDataCommit": "837b3642001d4853249114d2b5601d46e1004a45",
+  "spriteRepository": "PokeAPI/sprites",
+  "spriteCommit": "c10459b9b0129eaca5c5d9b1cac65336debb1d08",
+  "versionGroup": "ultra-sun-ultra-moon",
+  "maxNationalDex": 1025,
+  "includeNonDefaultForms": true,
+  "supplementalMoveIds": [],
+  "fetchedAt": "2026-08-24T18:24:18.326Z",
+  "counts": {
+    "species": 1025,
+    "pokemonForms": 1351,
+    "moves": 669,
+    "abilities": 312,
+    "items": 2223
+  }
+}

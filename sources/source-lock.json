@@ -1,0 +1,17 @@
+{
+  "gameSource": {
+    "repository": "https://github.com/PokemonHnS-Development/pokehns-expansion.git",
+    "ref": "Release-v2.0.2",
+    "commit": "42f4114fd6420d8924a09c5e8903f3eadfd06ece"
+  },
+  "generatedDocumentation": {
+    "repository": "https://github.com/PokemonHnS-Development/pokehns-expansion-documentation.git",
+    "ref": "main",
+    "commit": "9756ecbbbc59704c7d8306b4f6c8e31df6d43c53"
+  },
+  "v1Reference": {
+    "repository": "https://github.com/jimineybillybob1/pokemon-heart-soul-field-guide.git",
+    "commit": "3575fcdcde1a0790db0325e68bbcf3beae4d8239",
+    "usage": "read-only design and feature reference"
+  }
+}

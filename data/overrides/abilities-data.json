@@ -1,0 +1,1902 @@
+[
+  {
+    "id": 1,
+    "key": "stench",
+    "name": "Stench",
+    "description": "May cause a foe to flinch."
+  },
+  {
+    "id": 2,
+    "key": "drizzle",
+    "name": "Drizzle",
+    "description": "Summons rain in battle."
+  },
+  {
+    "id": 3,
+    "key": "speed-boost",
+    "name": "Speed Boost",
+    "description": "Gradually boosts Speed."
+  },
+  {
+    "id": 4,
+    "key": "battle-armor",
+    "name": "Battle Armor",
+    "description": "Blocks critical hits."
+  },
+  {
+    "id": 5,
+    "key": "sturdy",
+    "name": "Sturdy",
+    "description": "Negates 1-hit KO attacks."
+  },
+  {
+    "id": 6,
+    "key": "damp",
+    "name": "Damp",
+    "description": "Prevents self-destruction."
+  },
+  {
+    "id": 7,
+    "key": "limber",
+    "name": "Limber",
+    "description": "Prevents paralysis."
+  },
+  {
+    "id": 8,
+    "key": "sand-veil",
+    "name": "Sand Veil",
+    "description": "Ups evasion in a sandstorm."
+  },
+  {
+    "id": 9,
+    "key": "static",
+    "name": "Static",
+    "description": "Paralyzes on contact."
+  },
+  {
+    "id": 10,
+    "key": "volt-absorb",
+    "name": "Volt Absorb",
+    "description": "Turns electricity into HP."
+  },
+  {
+    "id": 11,
+    "key": "water-absorb",
+    "name": "Water Absorb",
+    "description": "Changes water into HP."
+  },
+  {
+    "id": 12,
+    "key": "oblivious",
+    "name": "Oblivious",
+    "description": "Prevents attraction."
+  },
+  {
+    "id": 13,
+    "key": "cloud-nine",
+    "name": "Cloud Nine",
+    "description": "Negates weather effects."
+  },
+  {
+    "id": 14,
+    "key": "compound-eyes",
+    "name": "Compound Eyes",
+    "description": "Raises accuracy."
+  },
+  {
+    "id": 15,
+    "key": "insomnia",
+    "name": "Insomnia",
+    "description": "Prevents sleep."
+  },
+  {
+    "id": 16,
+    "key": "color-change",
+    "name": "Color Change",
+    "description": "Changes type to foe's move."
+  },
+  {
+    "id": 17,
+    "key": "immunity",
+    "name": "Immunity",
+    "description": "Prevents poisoning."
+  },
+  {
+    "id": 18,
+    "key": "flash-fire",
+    "name": "Flash Fire",
+    "description": "Powers up if hit by fire."
+  },
+  {
+    "id": 19,
+    "key": "shield-dust",
+    "name": "Shield Dust",
+    "description": "Prevents added effects."
+  },
+  {
+    "id": 20,
+    "key": "own-tempo",
+    "name": "Own Tempo",
+    "description": "Prevents confusion."
+  },
+  {
+    "id": 21,
+    "key": "suction-cups",
+    "name": "Suction Cups",
+    "description": "Firmly anchors the body."
+  },
+  {
+    "id": 22,
+    "key": "intimidate",
+    "name": "Intimidate",
+    "description": "Lowers the foe's Attack."
+  },
+  {
+    "id": 23,
+    "key": "shadow-tag",
+    "name": "Shadow Tag",
+    "description": "Prevents the foe's escape."
+  },
+  {
+    "id": 24,
+    "key": "rough-skin",
+    "name": "Rough Skin",
+    "description": "Hurts to touch."
+  },
+  {
+    "id": 25,
+    "key": "wonder-guard",
+    "name": "Wonder Guard",
+    "description": "Only “Supereffective” hits."
+  },
+  {
+    "id": 26,
+    "key": "levitate",
+    "name": "Levitate",
+    "description": "Not hit by Ground attacks."
+  },
+  {
+    "id": 27,
+    "key": "effect-spore",
+    "name": "Effect Spore",
+    "description": "Leaves spores on contact."
+  },
+  {
+    "id": 28,
+    "key": "synchronize",
+    "name": "Synchronize",
+    "description": "Passes on status problems."
+  },
+  {
+    "id": 29,
+    "key": "clear-body",
+    "name": "Clear Body",
+    "description": "Prevents ability reduction."
+  },
+  {
+    "id": 30,
+    "key": "natural-cure",
+    "name": "Natural Cure",
+    "description": "Heals upon switching out."
+  },
+  {
+    "id": 31,
+    "key": "lightning-rod",
+    "name": "Lightning Rod",
+    "description": "Draws electrical moves."
+  },
+  {
+    "id": 32,
+    "key": "serene-grace",
+    "name": "Serene Grace",
+    "description": "Promotes added effects."
+  },
+  {
+    "id": 33,
+    "key": "swift-swim",
+    "name": "Swift Swim",
+    "description": "Raises Speed in rain."
+  },
+  {
+    "id": 34,
+    "key": "chlorophyll",
+    "name": "Chlorophyll",
+    "description": "Raises Speed in sunshine."
+  },
+  {
+    "id": 35,
+    "key": "illuminate",
+    "name": "Illuminate",
+    "description": "Encounter rate increases."
+  },
+  {
+    "id": 36,
+    "key": "trace",
+    "name": "Trace",
+    "description": "Copies special ability."
+  },
+  {
+    "id": 37,
+    "key": "huge-power",
+    "name": "Huge Power",
+    "description": "Raises Attack."
+  },
+  {
+    "id": 38,
+    "key": "poison-point",
+    "name": "Poison Point",
+    "description": "Poisons foe on contact."
+  },
+  {
+    "id": 39,
+    "key": "inner-focus",
+    "name": "Inner Focus",
+    "description": "Prevents flinching."
+  },
+  {
+    "id": 40,
+    "key": "magma-armor",
+    "name": "Magma Armor",
+    "description": "Prevents freezing."
+  },
+  {
+    "id": 41,
+    "key": "water-veil",
+    "name": "Water Veil",
+    "description": "Prevents burns."
+  },
+  {
+    "id": 42,
+    "key": "magnet-pull",
+    "name": "Magnet Pull",
+    "description": "Traps Steel-type Pokémon."
+  },
+  {
+    "id": 43,
+    "key": "soundproof",
+    "name": "Soundproof",
+    "description": "Avoids sound-based moves."
+  },
+  {
+    "id": 44,
+    "key": "rain-dish",
+    "name": "Rain Dish",
+    "description": "Slight HP recovery in rain."
+  },
+  {
+    "id": 45,
+    "key": "sand-stream",
+    "name": "Sand Stream",
+    "description": "Summons a sandstorm."
+  },
+  {
+    "id": 46,
+    "key": "pressure",
+    "name": "Pressure",
+    "description": "Raises foe's PP usage."
+  },
+  {
+    "id": 47,
+    "key": "thick-fat",
+    "name": "Thick Fat",
+    "description": "Heat-and-cold protection."
+  },
+  {
+    "id": 48,
+    "key": "early-bird",
+    "name": "Early Bird",
+    "description": "Awakens quickly from sleep."
+  },
+  {
+    "id": 49,
+    "key": "flame-body",
+    "name": "Flame Body",
+    "description": "Burns the foe on contact."
+  },
+  {
+    "id": 50,
+    "key": "run-away",
+    "name": "Run Away",
+    "description": "Makes escaping easier."
+  },
+  {
+    "id": 51,
+    "key": "keen-eye",
+    "name": "Keen Eye",
+    "description": "Prevents loss of accuracy."
+  },
+  {
+    "id": 52,
+    "key": "hyper-cutter",
+    "name": "Hyper Cutter",
+    "description": "Prevents Attack reduction."
+  },
+  {
+    "id": 53,
+    "key": "pickup",
+    "name": "Pickup",
+    "description": "May pick up items."
+  },
+  {
+    "id": 54,
+    "key": "truant",
+    "name": "Truant",
+    "description": "Moves only every two turns."
+  },
+  {
+    "id": 55,
+    "key": "hustle",
+    "name": "Hustle",
+    "description": "Trades accuracy for power."
+  },
+  {
+    "id": 56,
+    "key": "cute-charm",
+    "name": "Cute Charm",
+    "description": "Infatuates on contact."
+  },
+  {
+    "id": 57,
+    "key": "plus",
+    "name": "Plus",
+    "description": "Powers up with Minus."
+  },
+  {
+    "id": 58,
+    "key": "minus",
+    "name": "Minus",
+    "description": "Powers up with Plus."
+  },
+  {
+    "id": 59,
+    "key": "forecast",
+    "name": "Forecast",
+    "description": "Changes with the weather."
+  },
+  {
+    "id": 60,
+    "key": "sticky-hold",
+    "name": "Sticky Hold",
+    "description": "Prevents item theft."
+  },
+  {
+    "id": 61,
+    "key": "shed-skin",
+    "name": "Shed Skin",
+    "description": "Heals the body by shedding."
+  },
+  {
+    "id": 62,
+    "key": "guts",
+    "name": "Guts",
+    "description": "Ups Attack if suffering."
+  },
+  {
+    "id": 63,
+    "key": "marvel-scale",
+    "name": "Marvel Scale",
+    "description": "Ups Defense if suffering."
+  },
+  {
+    "id": 64,
+    "key": "liquid-ooze",
+    "name": "Liquid Ooze",
+    "description": "Draining causes injury."
+  },
+  {
+    "id": 65,
+    "key": "overgrow",
+    "name": "Overgrow",
+    "description": "Ups Grass moves in a pinch."
+  },
+  {
+    "id": 66,
+    "key": "blaze",
+    "name": "Blaze",
+    "description": "Ups Fire moves in a pinch."
+  },
+  {
+    "id": 67,
+    "key": "torrent",
+    "name": "Torrent",
+    "description": "Ups Water moves in a pinch."
+  },
+  {
+    "id": 68,
+    "key": "swarm",
+    "name": "Swarm",
+    "description": "Ups Bug moves in a pinch."
+  },
+  {
+    "id": 69,
+    "key": "rock-head",
+    "name": "Rock Head",
+    "description": "Prevents recoil damage."
+  },
+  {
+    "id": 70,
+    "key": "drought",
+    "name": "Drought",
+    "description": "Summons sunlight in battle."
+  },
+  {
+    "id": 71,
+    "key": "arena-trap",
+    "name": "Arena Trap",
+    "description": "Prevents fleeing."
+  },
+  {
+    "id": 72,
+    "key": "vital-spirit",
+    "name": "Vital Spirit",
+    "description": "Prevents sleep."
+  },
+  {
+    "id": 73,
+    "key": "white-smoke",
+    "name": "White Smoke",
+    "description": "Prevents ability reduction."
+  },
+  {
+    "id": 74,
+    "key": "pure-power",
+    "name": "Pure Power",
+    "description": "Raises Attack."
+  },
+  {
+    "id": 75,
+    "key": "shell-armor",
+    "name": "Shell Armor",
+    "description": "Blocks critical hits."
+  },
+  {
+    "id": 76,
+    "key": "air-lock",
+    "name": "Air Lock",
+    "description": "Negates weather effects."
+  },
+  {
+    "id": 77,
+    "key": "tangled-feet",
+    "name": "Tangled Feet",
+    "description": "Ups evasion if confused."
+  },
+  {
+    "id": 78,
+    "key": "motor-drive",
+    "name": "Motor Drive",
+    "description": "Electricity raises Speed."
+  },
+  {
+    "id": 79,
+    "key": "rivalry",
+    "name": "Rivalry",
+    "description": "Powers up against rivals."
+  },
+  {
+    "id": 80,
+    "key": "steadfast",
+    "name": "Steadfast",
+    "description": "Flinching raises Speed."
+  },
+  {
+    "id": 81,
+    "key": "snow-cloak",
+    "name": "Snow Cloak",
+    "description": "Ups evasion in Hail or Snow."
+  },
+  {
+    "id": 82,
+    "key": "gluttony",
+    "name": "Gluttony",
+    "description": "Eats Berries early."
+  },
+  {
+    "id": 83,
+    "key": "anger-point",
+    "name": "Anger Point",
+    "description": "Critical hits raise Attack."
+  },
+  {
+    "id": 84,
+    "key": "unburden",
+    "name": "Unburden",
+    "description": "Using a hold item ups Speed."
+  },
+  {
+    "id": 85,
+    "key": "heatproof",
+    "name": "Heatproof",
+    "description": "Heat and burn protection."
+  },
+  {
+    "id": 86,
+    "key": "simple",
+    "name": "Simple",
+    "description": "Prone to wild stat changes."
+  },
+  {
+    "id": 87,
+    "key": "dry-skin",
+    "name": "Dry Skin",
+    "description": "Prefers moisture to heat."
+  },
+  {
+    "id": 88,
+    "key": "download",
+    "name": "Download",
+    "description": "Adjusts power favorably."
+  },
+  {
+    "id": 89,
+    "key": "iron-fist",
+    "name": "Iron Fist",
+    "description": "Boosts punching moves."
+  },
+  {
+    "id": 90,
+    "key": "poison-heal",
+    "name": "Poison Heal",
+    "description": "Restores HP if poisoned."
+  },
+  {
+    "id": 91,
+    "key": "adaptability",
+    "name": "Adaptability",
+    "description": "Boosts same type attacks."
+  },
+  {
+    "id": 92,
+    "key": "skill-link",
+    "name": "Skill Link",
+    "description": "Multi-hit moves hit 5 times."
+  },
+  {
+    "id": 93,
+    "key": "hydration",
+    "name": "Hydration",
+    "description": "Cures status in rain."
+  },
+  {
+    "id": 94,
+    "key": "solar-power",
+    "name": "Solar Power",
+    "description": "Powers up in sunshine."
+  },
+  {
+    "id": 95,
+    "key": "quick-feet",
+    "name": "Quick Feet",
+    "description": "Ups Speed if suffering."
+  },
+  {
+    "id": 96,
+    "key": "normalize",
+    "name": "Normalize",
+    "description": "Moves become Normal-type."
+  },
+  {
+    "id": 97,
+    "key": "sniper",
+    "name": "Sniper",
+    "description": "Boosts critical hits."
+  },
+  {
+    "id": 98,
+    "key": "magic-guard",
+    "name": "Magic Guard",
+    "description": "Only damaged by attacks."
+  },
+  {
+    "id": 99,
+    "key": "no-guard",
+    "name": "No Guard",
+    "description": "Ensures that all moves hit."
+  },
+  {
+    "id": 100,
+    "key": "stall",
+    "name": "Stall",
+    "description": "Always moves last."
+  },
+  {
+    "id": 101,
+    "key": "technician",
+    "name": "Technician",
+    "description": "Boosts weaker moves."
+  },
+  {
+    "id": 102,
+    "key": "leaf-guard",
+    "name": "Leaf Guard",
+    "description": "Blocks status in sunshine."
+  },
+  {
+    "id": 103,
+    "key": "klutz",
+    "name": "Klutz",
+    "description": "Can't use hold items."
+  },
+  {
+    "id": 104,
+    "key": "mold-breaker",
+    "name": "Mold Breaker",
+    "description": "Moves hit through abilities."
+  },
+  {
+    "id": 105,
+    "key": "super-luck",
+    "name": "Super Luck",
+    "description": "Critical hits land often."
+  },
+  {
+    "id": 106,
+    "key": "aftermath",
+    "name": "Aftermath",
+    "description": "Fainting damages the foe."
+  },
+  {
+    "id": 107,
+    "key": "anticipation",
+    "name": "Anticipation",
+    "description": "Senses dangerous moves."
+  },
+  {
+    "id": 108,
+    "key": "forewarn",
+    "name": "Forewarn",
+    "description": "Determines a foe's move."
+  },
+  {
+    "id": 109,
+    "key": "unaware",
+    "name": "Unaware",
+    "description": "Ignores stat changes."
+  },
+  {
+    "id": 110,
+    "key": "tinted-lens",
+    "name": "Tinted Lens",
+    "description": "Ups “not very effective”."
+  },
+  {
+    "id": 111,
+    "key": "filter",
+    "name": "Filter",
+    "description": "Weakens “supereffective”."
+  },
+  {
+    "id": 112,
+    "key": "slow-start",
+    "name": "Slow Start",
+    "description": "Takes a while to get going."
+  },
+  {
+    "id": 113,
+    "key": "scrappy",
+    "name": "Scrappy",
+    "description": "Hits Ghost-type Pokémon."
+  },
+  {
+    "id": 114,
+    "key": "storm-drain",
+    "name": "Storm Drain",
+    "description": "Draws in Water moves."
+  },
+  {
+    "id": 115,
+    "key": "ice-body",
+    "name": "Ice Body",
+    "description": "HP recovery in Hail or Snow."
+  },
+  {
+    "id": 116,
+    "key": "solid-rock",
+    "name": "Solid Rock",
+    "description": "Weakens “supereffective”."
+  },
+  {
+    "id": 117,
+    "key": "snow-warning",
+    "name": "Snow Warning",
+    "description": "Summons snow in battle."
+  },
+  {
+    "id": 118,
+    "key": "honey-gather",
+    "name": "Honey Gather",
+    "description": "May gather Honey."
+  },
+  {
+    "id": 119,
+    "key": "frisk",
+    "name": "Frisk",
+    "description": "Checks a foe's item."
+  },
+  {
+    "id": 120,
+    "key": "reckless",
+    "name": "Reckless",
+    "description": "Boosts moves with recoil."
+  },
+  {
+    "id": 121,
+    "key": "multitype",
+    "name": "Multitype",
+    "description": "Changes type to its Plate."
+  },
+  {
+    "id": 122,
+    "key": "flower-gift",
+    "name": "Flower Gift",
+    "description": "Allies power up in sunshine."
+  },
+  {
+    "id": 123,
+    "key": "bad-dreams",
+    "name": "Bad Dreams",
+    "description": "Damages sleeping Pokémon."
+  },
+  {
+    "id": 124,
+    "key": "pickpocket",
+    "name": "Pickpocket",
+    "description": "Steals the foe's held item."
+  },
+  {
+    "id": 125,
+    "key": "sheer-force",
+    "name": "Sheer Force",
+    "description": "Trades effects for power."
+  },
+  {
+    "id": 126,
+    "key": "contrary",
+    "name": "Contrary",
+    "description": "Inverts stat changes."
+  },
+  {
+    "id": 127,
+    "key": "unnerve",
+    "name": "Unnerve",
+    "description": "Foes can't eat Berries."
+  },
+  {
+    "id": 128,
+    "key": "defiant",
+    "name": "Defiant",
+    "description": "Lowered stats up Attack."
+  },
+  {
+    "id": 129,
+    "key": "defeatist",
+    "name": "Defeatist",
+    "description": "Gives up at half HP."
+  },
+  {
+    "id": 130,
+    "key": "cursed-body",
+    "name": "Cursed Body",
+    "description": "Disables moves on contact."
+  },
+  {
+    "id": 131,
+    "key": "healer",
+    "name": "Healer",
+    "description": "Heals partner Pokémon."
+  },
+  {
+    "id": 132,
+    "key": "friend-guard",
+    "name": "Friend Guard",
+    "description": "Lowers damage to partner."
+  },
+  {
+    "id": 133,
+    "key": "weak-armor",
+    "name": "Weak Armor",
+    "description": "Its stats change when hit."
+  },
+  {
+    "id": 134,
+    "key": "heavy-metal",
+    "name": "Heavy Metal",
+    "description": "Doubles weight."
+  },
+  {
+    "id": 135,
+    "key": "light-metal",
+    "name": "Light Metal",
+    "description": "Halves weight."
+  },
+  {
+    "id": 136,
+    "key": "multiscale",
+    "name": "Multiscale",
+    "description": "Halves damage at full HP."
+  },
+  {
+    "id": 137,
+    "key": "toxic-boost",
+    "name": "Toxic Boost",
+    "description": "Ups Attack if poisoned."
+  },
+  {
+    "id": 138,
+    "key": "flare-boost",
+    "name": "Flare Boost",
+    "description": "Ups Sp. Atk if burned."
+  },
+  {
+    "id": 139,
+    "key": "harvest",
+    "name": "Harvest",
+    "description": "May recycle a used Berry."
+  },
+  {
+    "id": 140,
+    "key": "telepathy",
+    "name": "Telepathy",
+    "description": "Can't be damaged by an ally."
+  },
+  {
+    "id": 141,
+    "key": "moody",
+    "name": "Moody",
+    "description": "Stats change gradually."
+  },
+  {
+    "id": 142,
+    "key": "overcoat",
+    "name": "Overcoat",
+    "description": "Blocks weather and powder."
+  },
+  {
+    "id": 143,
+    "key": "poison-touch",
+    "name": "Poison Touch",
+    "description": "Poisons foe on contact."
+  },
+  {
+    "id": 144,
+    "key": "regenerator",
+    "name": "Regenerator",
+    "description": "Heals upon switching out."
+  },
+  {
+    "id": 145,
+    "key": "big-pecks",
+    "name": "Big Pecks",
+    "description": "Prevents Defense loss."
+  },
+  {
+    "id": 146,
+    "key": "sand-rush",
+    "name": "Sand Rush",
+    "description": "Ups Speed in a sandstorm."
+  },
+  {
+    "id": 147,
+    "key": "wonder-skin",
+    "name": "Wonder Skin",
+    "description": "May avoid status problems."
+  },
+  {
+    "id": 148,
+    "key": "analytic",
+    "name": "Analytic",
+    "description": "Moving last boosts power."
+  },
+  {
+    "id": 149,
+    "key": "illusion",
+    "name": "Illusion",
+    "description": "Appears as a partner."
+  },
+  {
+    "id": 150,
+    "key": "imposter",
+    "name": "Imposter",
+    "description": "Transforms into the foe."
+  },
+  {
+    "id": 151,
+    "key": "infiltrator",
+    "name": "Infiltrator",
+    "description": "Passes through barriers."
+  },
+  {
+    "id": 152,
+    "key": "mummy",
+    "name": "Mummy",
+    "description": "Spreads with contact."
+  },
+  {
+    "id": 153,
+    "key": "moxie",
+    "name": "Moxie",
+    "description": "KOs raise Attack."
+  },
+  {
+    "id": 154,
+    "key": "justified",
+    "name": "Justified",
+    "description": "Dark hits raise Attack."
+  },
+  {
+    "id": 155,
+    "key": "rattled",
+    "name": "Rattled",
+    "description": "Raises Speed when scared."
+  },
+  {
+    "id": 156,
+    "key": "magic-bounce",
+    "name": "Magic Bounce",
+    "description": "Reflects status moves."
+  },
+  {
+    "id": 157,
+    "key": "sap-sipper",
+    "name": "Sap Sipper",
+    "description": "Grass increases Attack."
+  },
+  {
+    "id": 158,
+    "key": "prankster",
+    "name": "Prankster",
+    "description": "Status moves go first."
+  },
+  {
+    "id": 159,
+    "key": "sand-force",
+    "name": "Sand Force",
+    "description": "Powers up in a sandstorm."
+  },
+  {
+    "id": 160,
+    "key": "iron-barbs",
+    "name": "Iron Barbs",
+    "description": "Hurts to touch."
+  },
+  {
+    "id": 161,
+    "key": "zen-mode",
+    "name": "Zen Mode",
+    "description": "Transforms at half HP."
+  },
+  {
+    "id": 162,
+    "key": "victory-star",
+    "name": "Victory Star",
+    "description": "Raises party accuracy."
+  },
+  {
+    "id": 163,
+    "key": "turboblaze",
+    "name": "Turboblaze",
+    "description": "Moves hit through abilities."
+  },
+  {
+    "id": 164,
+    "key": "teravolt",
+    "name": "Teravolt",
+    "description": "Moves hit through abilities."
+  },
+  {
+    "id": 165,
+    "key": "aroma-veil",
+    "name": "Aroma Veil",
+    "description": "Prevents limiting of moves."
+  },
+  {
+    "id": 166,
+    "key": "flower-veil",
+    "name": "Flower Veil",
+    "description": "Protects Grass-types."
+  },
+  {
+    "id": 167,
+    "key": "cheek-pouch",
+    "name": "Cheek Pouch",
+    "description": "Eating Berries restores HP."
+  },
+  {
+    "id": 168,
+    "key": "protean",
+    "name": "Protean",
+    "description": "Changes type to used move."
+  },
+  {
+    "id": 169,
+    "key": "fur-coat",
+    "name": "Fur Coat",
+    "description": "Raises Defense."
+  },
+  {
+    "id": 170,
+    "key": "magician",
+    "name": "Magician",
+    "description": "Steals the foe's held item."
+  },
+  {
+    "id": 171,
+    "key": "bulletproof",
+    "name": "Bulletproof",
+    "description": "Avoids some projectiles."
+  },
+  {
+    "id": 172,
+    "key": "competitive",
+    "name": "Competitive",
+    "description": "Lowered stats up Sp. Atk."
+  },
+  {
+    "id": 173,
+    "key": "strong-jaw",
+    "name": "Strong Jaw",
+    "description": "Boosts biting moves."
+  },
+  {
+    "id": 174,
+    "key": "refrigerate",
+    "name": "Refrigerate",
+    "description": "Normal moves become Ice."
+  },
+  {
+    "id": 175,
+    "key": "sweet-veil",
+    "name": "Sweet Veil",
+    "description": "Prevents party from sleep."
+  },
+  {
+    "id": 176,
+    "key": "stance-change",
+    "name": "Stance Change",
+    "description": "Transforms as it battles."
+  },
+  {
+    "id": 177,
+    "key": "gale-wings",
+    "name": "Gale Wings",
+    "description": "Flying moves go first."
+  },
+  {
+    "id": 178,
+    "key": "mega-launcher",
+    "name": "Mega Launcher",
+    "description": "Boosts pulse moves."
+  },
+  {
+    "id": 179,
+    "key": "grass-pelt",
+    "name": "Grass Pelt",
+    "description": "Ups Defense in grass."
+  },
+  {
+    "id": 180,
+    "key": "symbiosis",
+    "name": "Symbiosis",
+    "description": "Passes its item to an ally."
+  },
+  {
+    "id": 181,
+    "key": "tough-claws",
+    "name": "Tough Claws",
+    "description": "Boosts contact moves."
+  },
+  {
+    "id": 182,
+    "key": "pixilate",
+    "name": "Pixilate",
+    "description": "Normal moves become Fairy."
+  },
+  {
+    "id": 183,
+    "key": "gooey",
+    "name": "Gooey",
+    "description": "Lowers Speed on contact."
+  },
+  {
+    "id": 184,
+    "key": "aerilate",
+    "name": "Aerilate",
+    "description": "Normal moves become Flying."
+  },
+  {
+    "id": 185,
+    "key": "parental-bond",
+    "name": "Parental Bond",
+    "description": "Moves hit twice."
+  },
+  {
+    "id": 186,
+    "key": "dark-aura",
+    "name": "Dark Aura",
+    "description": "Boosts Dark moves."
+  },
+  {
+    "id": 187,
+    "key": "fairy-aura",
+    "name": "Fairy Aura",
+    "description": "Boosts Fairy moves."
+  },
+  {
+    "id": 188,
+    "key": "aura-break",
+    "name": "Aura Break",
+    "description": "Reverse aura abilities."
+  },
+  {
+    "id": 189,
+    "key": "primordial-sea",
+    "name": "Primordial Sea",
+    "description": "Summons heavy rain."
+  },
+  {
+    "id": 190,
+    "key": "desolate-land",
+    "name": "Desolate Land",
+    "description": "Summons intense sunlight."
+  },
+  {
+    "id": 191,
+    "key": "delta-stream",
+    "name": "Delta Stream",
+    "description": "Summons strong winds."
+  },
+  {
+    "id": 192,
+    "key": "stamina",
+    "name": "Stamina",
+    "description": "Boosts Defense when hit."
+  },
+  {
+    "id": 193,
+    "key": "wimp-out",
+    "name": "Wimp Out",
+    "description": "Flees at half HP."
+  },
+  {
+    "id": 194,
+    "key": "emergency-exit",
+    "name": "Emergency Exit",
+    "description": "Flees at half HP."
+  },
+  {
+    "id": 195,
+    "key": "water-compaction",
+    "name": "Water Compaction",
+    "description": "Water boosts Defense."
+  },
+  {
+    "id": 196,
+    "key": "merciless",
+    "name": "Merciless",
+    "description": "Criticals poisoned foes."
+  },
+  {
+    "id": 197,
+    "key": "shields-down",
+    "name": "Shields Down",
+    "description": "Shell breaks at half HP."
+  },
+  {
+    "id": 198,
+    "key": "stakeout",
+    "name": "Stakeout",
+    "description": "Stronger as foes switch in."
+  },
+  {
+    "id": 199,
+    "key": "water-bubble",
+    "name": "Water Bubble",
+    "description": "Guards from fire and burns."
+  },
+  {
+    "id": 200,
+    "key": "steelworker",
+    "name": "Steelworker",
+    "description": "Powers up Steel moves."
+  },
+  {
+    "id": 201,
+    "key": "berserk",
+    "name": "Berserk",
+    "description": "Boosts Sp. Atk at low HP."
+  },
+  {
+    "id": 202,
+    "key": "slush-rush",
+    "name": "Slush Rush",
+    "description": "Raises Speed in Hail/Snow."
+  },
+  {
+    "id": 203,
+    "key": "long-reach",
+    "name": "Long Reach",
+    "description": "Never makes contact."
+  },
+  {
+    "id": 204,
+    "key": "liquid-voice",
+    "name": "Liquid Voice",
+    "description": "Makes sound moves Water."
+  },
+  {
+    "id": 205,
+    "key": "triage",
+    "name": "Triage",
+    "description": "Healing moves go first."
+  },
+  {
+    "id": 206,
+    "key": "galvanize",
+    "name": "Galvanize",
+    "description": "Normal moves turn Electric."
+  },
+  {
+    "id": 207,
+    "key": "surge-surfer",
+    "name": "Surge Surfer",
+    "description": "Faster on electricity."
+  },
+  {
+    "id": 208,
+    "key": "schooling",
+    "name": "Schooling",
+    "description": "Forms a school when strong."
+  },
+  {
+    "id": 209,
+    "key": "disguise",
+    "name": "Disguise",
+    "description": "Decoy protects it once."
+  },
+  {
+    "id": 210,
+    "key": "battle-bond",
+    "name": "Battle Bond",
+    "description": "Changes form after a KO."
+  },
+  {
+    "id": 211,
+    "key": "power-construct",
+    "name": "Power Construct",
+    "description": "Cells aid it when weakened."
+  },
+  {
+    "id": 212,
+    "key": "corrosion",
+    "name": "Corrosion",
+    "description": "Poisons any type."
+  },
+  {
+    "id": 213,
+    "key": "comatose",
+    "name": "Comatose",
+    "description": "Always drowsing."
+  },
+  {
+    "id": 214,
+    "key": "queenly-majesty",
+    "name": "Queenly Majesty",
+    "description": "Protects from priority."
+  },
+  {
+    "id": 215,
+    "key": "innards-out",
+    "name": "Innards Out",
+    "description": "Hurts foe when defeated."
+  },
+  {
+    "id": 216,
+    "key": "dancer",
+    "name": "Dancer",
+    "description": "Dances along with others."
+  },
+  {
+    "id": 217,
+    "key": "battery",
+    "name": "Battery",
+    "description": "Boosts ally's Sp. Atk."
+  },
+  {
+    "id": 218,
+    "key": "fluffy",
+    "name": "Fluffy",
+    "description": "Tougher but flammable."
+  },
+  {
+    "id": 219,
+    "key": "dazzling",
+    "name": "Dazzling",
+    "description": "Protects from priority."
+  },
+  {
+    "id": 220,
+    "key": "soul-heart",
+    "name": "Soul Heart",
+    "description": "KOs raise Sp. Atk."
+  },
+  {
+    "id": 221,
+    "key": "tangling-hair",
+    "name": "Tangling Hair",
+    "description": "Lowers Speed on contact."
+  },
+  {
+    "id": 222,
+    "key": "receiver",
+    "name": "Receiver",
+    "description": "Copies ally's ability."
+  },
+  {
+    "id": 223,
+    "key": "power-of-alchemy",
+    "name": "Power Of Alchemy",
+    "description": "Copies ally's ability."
+  },
+  {
+    "id": 224,
+    "key": "beast-boost",
+    "name": "Beast Boost",
+    "description": "KOs boost best stat."
+  },
+  {
+    "id": 225,
+    "key": "rks-system",
+    "name": "Rks System",
+    "description": "Memories change its type."
+  },
+  {
+    "id": 226,
+    "key": "electric-surge",
+    "name": "Electric Surge",
+    "description": "Field becomes Electric."
+  },
+  {
+    "id": 227,
+    "key": "psychic-surge",
+    "name": "Psychic Surge",
+    "description": "Field becomes weird."
+  },
+  {
+    "id": 228,
+    "key": "misty-surge",
+    "name": "Misty Surge",
+    "description": "Field becomes misty."
+  },
+  {
+    "id": 229,
+    "key": "grassy-surge",
+    "name": "Grassy Surge",
+    "description": "Field becomes grassy."
+  },
+  {
+    "id": 230,
+    "key": "full-metal-body",
+    "name": "Full Metal Body",
+    "description": "Prevents stat reduction."
+  },
+  {
+    "id": 231,
+    "key": "shadow-shield",
+    "name": "Shadow Shield",
+    "description": "Halves damage at full HP."
+  },
+  {
+    "id": 232,
+    "key": "prism-armor",
+    "name": "Prism Armor",
+    "description": "Weakens “supereffective”."
+  },
+  {
+    "id": 233,
+    "key": "neuroforce",
+    "name": "Neuroforce",
+    "description": "Ups “supereffective”."
+  },
+  {
+    "id": 234,
+    "key": "intrepid-sword",
+    "name": "Intrepid Sword",
+    "description": "Ups Attack on entry."
+  },
+  {
+    "id": 235,
+    "key": "dauntless-shield",
+    "name": "Dauntless Shield",
+    "description": "Ups Defense on entry."
+  },
+  {
+    "id": 236,
+    "key": "libero",
+    "name": "Libero",
+    "description": "Changes type to move's."
+  },
+  {
+    "id": 237,
+    "key": "ball-fetch",
+    "name": "Ball Fetch",
+    "description": "Fetches failed Poké Ball."
+  },
+  {
+    "id": 238,
+    "key": "cotton-down",
+    "name": "Cotton Down",
+    "description": "Lower Speed of all when hit."
+  },
+  {
+    "id": 239,
+    "key": "propeller-tail",
+    "name": "Propeller Tail",
+    "description": "Ignores foe's redirection."
+  },
+  {
+    "id": 240,
+    "key": "mirror-armor",
+    "name": "Mirror Armor",
+    "description": "Reflect stat decreases."
+  },
+  {
+    "id": 241,
+    "key": "gulp-missile",
+    "name": "Gulp Missile",
+    "description": "If hit, spits prey from sea."
+  },
+  {
+    "id": 242,
+    "key": "stalwart",
+    "name": "Stalwart",
+    "description": "Ignores foe's redirection."
+  },
+  {
+    "id": 243,
+    "key": "steam-engine",
+    "name": "Steam Engine",
+    "description": "Fire or Water hits up Speed."
+  },
+  {
+    "id": 244,
+    "key": "punk-rock",
+    "name": "Punk Rock",
+    "description": "Ups and resists sound."
+  },
+  {
+    "id": 245,
+    "key": "sand-spit",
+    "name": "Sand Spit",
+    "description": "Creates a sandstorm if hit."
+  },
+  {
+    "id": 246,
+    "key": "ice-scales",
+    "name": "Ice Scales",
+    "description": "Halves special damage."
+  },
+  {
+    "id": 247,
+    "key": "ripen",
+    "name": "Ripen",
+    "description": "Doubles effect of Berries."
+  },
+  {
+    "id": 248,
+    "key": "ice-face",
+    "name": "Ice Face",
+    "description": "Hail or Snow renew free hit."
+  },
+  {
+    "id": 249,
+    "key": "power-spot",
+    "name": "Power Spot",
+    "description": "Powers up ally moves."
+  },
+  {
+    "id": 250,
+    "key": "mimicry",
+    "name": "Mimicry",
+    "description": "Changes type on terrain."
+  },
+  {
+    "id": 251,
+    "key": "screen-cleaner",
+    "name": "Screen Cleaner",
+    "description": "Removes walls of light."
+  },
+  {
+    "id": 252,
+    "key": "steely-spirit",
+    "name": "Steely Spirit",
+    "description": "Boosts ally's Steel moves."
+  },
+  {
+    "id": 253,
+    "key": "perish-body",
+    "name": "Perish Body",
+    "description": "Foe faints in 3 turns if hit."
+  },
+  {
+    "id": 254,
+    "key": "wandering-spirit",
+    "name": "Wandering Spirit",
+    "description": "Trade abilities on contact."
+  },
+  {
+    "id": 255,
+    "key": "gorilla-tactics",
+    "name": "Gorilla Tactics",
+    "description": "Ups Attack and locks move."
+  },
+  {
+    "id": 256,
+    "key": "neutralizing-gas",
+    "name": "Neutralizing Gas",
+    "description": "All Abilities are nullified."
+  },
+  {
+    "id": 257,
+    "key": "pastel-veil",
+    "name": "Pastel Veil",
+    "description": "Protects team from poison."
+  },
+  {
+    "id": 258,
+    "key": "hunger-switch",
+    "name": "Hunger Switch",
+    "description": "Changes form each turn."
+  },
+  {
+    "id": 259,
+    "key": "quick-draw",
+    "name": "Quick Draw",
+    "description": "Moves first occasionally."
+  },
+  {
+    "id": 260,
+    "key": "unseen-fist",
+    "name": "Unseen Fist",
+    "description": "Contact evades protection."
+  },
+  {
+    "id": 261,
+    "key": "curious-medicine",
+    "name": "Curious Medicine",
+    "description": "Remove ally's stat changes."
+  },
+  {
+    "id": 262,
+    "key": "transistor",
+    "name": "Transistor",
+    "description": "Ups Electric-type moves."
+  },
+  {
+    "id": 263,
+    "key": "dragons-maw",
+    "name": "Dragons Maw",
+    "description": "Ups Dragon-type moves."
+  },
+  {
+    "id": 264,
+    "key": "chilling-neigh",
+    "name": "Chilling Neigh",
+    "description": "KOs boost Attack stat."
+  },
+  {
+    "id": 265,
+    "key": "grim-neigh",
+    "name": "Grim Neigh",
+    "description": "KOs boost Sp. Atk stat."
+  },
+  {
+    "id": 314,
+    "key": "as-one-ice-rider",
+    "name": "As One Ice Rider",
+    "description": "Unnerve and Chilling Neigh."
+  },
+  {
+    "id": 315,
+    "key": "as-one-shadow-rider",
+    "name": "As One Shadow Rider",
+    "description": "Unnerve and Grim Neigh."
+  },
+  {
+    "id": 268,
+    "key": "lingering-aroma",
+    "name": "Lingering Aroma",
+    "description": "Spreads with contact."
+  },
+  {
+    "id": 269,
+    "key": "seed-sower",
+    "name": "Seed Sower",
+    "description": "Affects terrain when hit."
+  },
+  {
+    "id": 270,
+    "key": "thermal-exchange",
+    "name": "Thermal Exchange",
+    "description": "Fire hits up Attack."
+  },
+  {
+    "id": 271,
+    "key": "anger-shell",
+    "name": "Anger Shell",
+    "description": "Gets angry at half HP."
+  },
+  {
+    "id": 272,
+    "key": "purifying-salt",
+    "name": "Purifying Salt",
+    "description": "Protected by pure salts."
+  },
+  {
+    "id": 273,
+    "key": "well-baked-body",
+    "name": "Well Baked Body",
+    "description": "Strengthened by Fire."
+  },
+  {
+    "id": 274,
+    "key": "wind-rider",
+    "name": "Wind Rider",
+    "description": "Ups Attack if hit by wind."
+  },
+  {
+    "id": 275,
+    "key": "guard-dog",
+    "name": "Guard Dog",
+    "description": "Cannot be intimidated."
+  },
+  {
+    "id": 276,
+    "key": "rocky-payload",
+    "name": "Rocky Payload",
+    "description": "Powers up Rock moves."
+  },
+  {
+    "id": 277,
+    "key": "wind-power",
+    "name": "Wind Power",
+    "description": "Gets charged by wind."
+  },
+  {
+    "id": 278,
+    "key": "zero-to-hero",
+    "name": "Zero To Hero",
+    "description": "Changes form on switch out."
+  },
+  {
+    "id": 279,
+    "key": "commander",
+    "name": "Commander",
+    "description": "Commands from Dondozo."
+  },
+  {
+    "id": 280,
+    "key": "electromorphosis",
+    "name": "Electromorphosis",
+    "description": "Gets Charged when hit."
+  },
+  {
+    "id": 281,
+    "key": "protosynthesis",
+    "name": "Protosynthesis",
+    "description": "Sun boosts best stat."
+  },
+  {
+    "id": 282,
+    "key": "quark-drive",
+    "name": "Quark Drive",
+    "description": "Elec. field ups best stat."
+  },
+  {
+    "id": 283,
+    "key": "good-as-gold",
+    "name": "Good As Gold",
+    "description": "Avoids status moves."
+  },
+  {
+    "id": 284,
+    "key": "vessel-of-ruin",
+    "name": "Vessel Of Ruin",
+    "description": "Lowers foes' sp. damage."
+  },
+  {
+    "id": 285,
+    "key": "sword-of-ruin",
+    "name": "Sword Of Ruin",
+    "description": "Lowers foes' Defense."
+  },
+  {
+    "id": 286,
+    "key": "tablets-of-ruin",
+    "name": "Tablets Of Ruin",
+    "description": "Lowers foes' damage."
+  },
+  {
+    "id": 287,
+    "key": "beads-of-ruin",
+    "name": "Beads Of Ruin",
+    "description": "Lowers foes' Sp. Defense."
+  },
+  {
+    "id": 288,
+    "key": "orichalcum-pulse",
+    "name": "Orichalcum Pulse",
+    "description": "Summons sunlight in battle."
+  },
+  {
+    "id": 289,
+    "key": "hadron-engine",
+    "name": "Hadron Engine",
+    "description": "Field becomes Electric."
+  },
+  {
+    "id": 290,
+    "key": "opportunist",
+    "name": "Opportunist",
+    "description": "Copies foe's stat change."
+  },
+  {
+    "id": 291,
+    "key": "cud-chew",
+    "name": "Cud Chew",
+    "description": "Eats a used berry again."
+  },
+  {
+    "id": 292,
+    "key": "sharpness",
+    "name": "Sharpness",
+    "description": "Strengthens slicing moves."
+  },
+  {
+    "id": 293,
+    "key": "supreme-overlord",
+    "name": "Supreme Overlord",
+    "description": "Inherits fallen's strength."
+  },
+  {
+    "id": 294,
+    "key": "costar",
+    "name": "Costar",
+    "description": "Copies ally's stat changes."
+  },
+  {
+    "id": 295,
+    "key": "toxic-debris",
+    "name": "Toxic Debris",
+    "description": "Throws poison spikes if hit."
+  },
+  {
+    "id": 296,
+    "key": "armor-tail",
+    "name": "Armor Tail",
+    "description": "Protects from priority."
+  },
+  {
+    "id": 297,
+    "key": "earth-eater",
+    "name": "Earth Eater",
+    "description": "Eats ground to heal HP."
+  },
+  {
+    "id": 298,
+    "key": "mycelium-might",
+    "name": "Mycelium Might",
+    "description": "Status moves never fail."
+  },
+  {
+    "id": 301,
+    "key": "hospitality",
+    "name": "Hospitality",
+    "description": "Restores ally's HP."
+  },
+  {
+    "id": 299,
+    "key": "minds-eye",
+    "name": "Minds Eye",
+    "description": "Keen Eye and Scrappy."
+  },
+  {
+    "id": 316,
+    "key": "embody-aspect-teal-mask",
+    "name": "Embody Aspect Teal Mask",
+    "description": "Raises Speed."
+  },
+  {
+    "id": 317,
+    "key": "embody-aspect-hearthflame-mask",
+    "name": "Embody Aspect Hearthflame Mask",
+    "description": "Raises Attack."
+  },
+  {
+    "id": 318,
+    "key": "embody-aspect-wellspring-mask",
+    "name": "Embody Aspect Wellspring Mask",
+    "description": "Raises Sp. Def."
+  },
+  {
+    "id": 319,
+    "key": "embody-aspect-cornerstone-mask",
+    "name": "Embody Aspect Cornerstone Mask",
+    "description": "Raises Defense."
+  },
+  {
+    "id": 302,
+    "key": "toxic-chain",
+    "name": "Toxic Chain",
+    "description": "Moves can poison."
+  },
+  {
+    "id": 300,
+    "key": "supersweet-syrup",
+    "name": "Supersweet Syrup",
+    "description": "Lowers the foe's Evasion."
+  },
+  {
+    "id": 304,
+    "key": "tera-shift",
+    "name": "Tera Shift",
+    "description": "Terastallizes upon entry."
+  },
+  {
+    "id": 305,
+    "key": "tera-shell",
+    "name": "Tera Shell",
+    "description": "Resists all at full HP."
+  },
+  {
+    "id": 306,
+    "key": "teraform-zero",
+    "name": "Teraform Zero",
+    "description": "Zeroes weather and terrain."
+  },
+  {
+    "id": 307,
+    "key": "poison-puppeteer",
+    "name": "Poison Puppeteer",
+    "description": "Confuses poisoned foes."
+  },
+  {
+    "id": 266,
+    "name": "As One",
+    "$delete": true
+  },
+  {
+    "id": 267,
+    "name": "As One",
+    "$delete": true
+  },
+  {
+    "id": 308,
+    "name": "Piercing Drill",
+    "$delete": true
+  },
+  {
+    "id": 309,
+    "name": "Dragonize",
+    "$delete": true
+  },
+  {
+    "id": 310,
+    "name": "Mega Sol",
+    "$delete": true
+  },
+  {
+    "id": 311,
+    "name": "Spicy Spray",
+    "$delete": true
+  },
+  {
+    "id": 312,
+    "name": "Eelevate",
+    "$delete": true
+  },
+  {
+    "id": 313,
+    "name": "Fire Mane",
+    "$delete": true
+  }
+]

@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+sync-worker/.wrangler/
+work/
+sources/private/
+sources/pokehns-expansion/
+sources/pokehns-expansion-documentation/
+data/provenance-report.json
+*.pyc
+__pycache__/
