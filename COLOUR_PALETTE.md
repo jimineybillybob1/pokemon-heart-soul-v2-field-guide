@@ -23,3 +23,5 @@ The main red and blue should appear as a balanced pair. Gold is reserved for mea
 - Official icon: Nikios, SteamGridDB asset `0a15368edb805355d4a1f01a4a7e8eda`
 
 All three presentation files are cached under `assets/art/` to preserve offline behaviour.
+
+The iOS/iPadOS home-screen icon is an AI-generated adaptation of the SteamGridDB icon rather than a replacement for its credited source. It preserves the gold Poké Ball construction while introducing the guide's balanced Ho-Oh crimson and Lugia blue identity. The unrounded master and Apple-sized exports are kept in `assets/art/`; iOS applies its own corner mask.

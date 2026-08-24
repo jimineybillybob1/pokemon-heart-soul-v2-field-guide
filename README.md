@@ -14,6 +14,7 @@ An offline-friendly, GitHub Pages-ready field guide for Pokémon Heart & Soul v2
 - Optional Cloudflare Worker sync pattern, disabled until an endpoint is configured
 - Installable static web app with local assets and runtime offline caching
 - SteamGridDB-sourced Ho-Oh/Lugia presentation art, logo and icon cached locally for offline use, with an artwork-derived Heart/Soul colour palette
+- Generated Heart/Soul home-screen artwork with dedicated iPhone, iPad and installable-web-app icon sizes
 
 Walkthroughs are intentionally excluded.
 
