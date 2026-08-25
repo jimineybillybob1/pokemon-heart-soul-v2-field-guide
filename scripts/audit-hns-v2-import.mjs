@@ -32,6 +32,10 @@ check(!guide.pokemon.some(pokemon => !pokemon.types.length), 'A Pokémon has no 
 check(!guide.pokemon.some(pokemon => !pokemon.abilities.length || pokemon.abilities.some(ability => !ability.name || !ability.description)), 'A Pokémon has missing ability data.');
 check(!guide.moves.some(move => !move.description || !move.type || !move.category), 'A move has missing effect, type or category data.');
 check(!items.some(item => !item.name || !item.description || !item.sprite), 'An item has missing name, description or sprite data.');
+check(items.find(item => item.name === 'Hard Stone')?.category === 'Held Items', 'Hard Stone is not classified as a selectable held item.');
+check(items.find(item => item.name === 'Leftovers')?.category === 'Held Items', 'Leftovers is not classified as a selectable held item.');
+check(items.find(item => item.name === 'Fire Stone')?.category === 'Evolution', 'Fire Stone is not classified as an evolution item.');
+check(items.find(item => item.name === 'Oran Berry')?.category === 'Berries', 'Oran Berry is not classified as a selectable berry.');
 check(!duplicates(guide.pokemon, 'key').length, 'Duplicate normalized Pokémon keys remain.');
 check(!duplicates(guide.moves, 'name').length, 'Duplicate normalized move names remain.');
 check(!duplicates(items, 'name').length, 'Duplicate normalized item names remain.');

@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const docs = path.join(root, 'sources', 'pokehns-expansion-documentation');
+const gameSource = path.join(root, 'sources', 'pokehns-expansion');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 const readJson = file => JSON.parse(read(file));
 const writeJson = (file, value) => fs.writeFileSync(path.join(root, file), `${JSON.stringify(value, null, 2)}\n`);
@@ -272,13 +273,28 @@ for (const section of blocks(fs.readFileSync(path.join(docs, 'encounters.html'),
   locations.push({name, periodModel: JSON.stringify(periods.day) === JSON.stringify(periods.night) ? 'all-day' : 'split', ...periods});
 }
 
-function itemCategory(raw, name) {
+const itemSource = fs.readFileSync(path.join(gameSource, 'src', 'data', 'items.h'), 'utf8');
+function sourceItemBlock(asset) {
+  const symbol = String(asset ?? '').replace(/\.png$/i, '').toUpperCase().replace(/[^A-Z0-9]+/g, '_');
+  const start = itemSource.search(new RegExp(`\\[ITEM_${symbol}\\]\\s*=`));
+  if (start < 0) return '';
+  const next = itemSource.indexOf('\n    [ITEM_', start + 1);
+  return itemSource.slice(start, next < 0 ? itemSource.length : next);
+}
+
+function itemCategory(raw, name, asset) {
   if (/TM|HM/i.test(raw) || /^(TM|HM)\d+/i.test(name)) return 'TM & HM';
   if (/ball/i.test(raw)) return 'Poké Balls';
-  if (/berry/i.test(raw)) return 'Berries';
+  if (/berr(?:y|ies)/i.test(raw)) return 'Berries';
   if (/key/i.test(raw)) return 'Key Items';
   if (/medicine/i.test(raw)) return 'Medicine';
   if (/treasure|valuable/i.test(raw)) return 'Valuables';
+  const source = sourceItemBlock(asset);
+  if (/\.sortType\s*=\s*ITEM_TYPE_[A-Z0-9_]*MEGA_STONE/i.test(source)) return 'Mega Stones';
+  if (/\.sortType\s*=\s*ITEM_TYPE_[A-Z0-9_]*Z_CRYSTAL/i.test(source)) return 'Z-Crystals';
+  if (/\.sortType\s*=\s*ITEM_TYPE_[A-Z0-9_]*EVOLUTION/i.test(source)) return 'Evolution';
+  if (/\.sortType\s*=\s*ITEM_TYPE_[A-Z0-9_]*HELD_ITEM/i.test(source)
+    || /\.holdEffect\s*=\s*HOLD_EFFECT_(?!NONE\b)[A-Z0-9_]+/i.test(source)) return 'Held Items';
   return raw || 'Held Items';
 }
 
@@ -299,7 +315,7 @@ for (const card of blocks(fs.readFileSync(path.join(docs, 'items.html'), 'utf8')
   items.push({
     id: baseline?.id ?? nextItemId++, key: baseline?.key ?? slug(name), name,
     description: text(card.match(/<p class="card-note">([\s\S]*?)<\/p>/i)?.[1]),
-    category: itemCategory(badges[0], name), sprite: `assets/item-dex/${asset}`,
+    category: itemCategory(badges[0], name, asset), sprite: `assets/item-dex/${asset}`,
     locations: foundAt, costs: badges[1] ? [{display: badges[1], location: 'Base price'}] : [],
     move: tmMove ? {id: tmMove.id, name: tmMove.name, type: tmMove.type} : null
   });

@@ -4,7 +4,7 @@
     "key": "absorb-bulb",
     "name": "Absorb Bulb",
     "description": "Raises Sp. Atk if the holder is hit by a Water-type move.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/absorb_bulb.png",
     "locations": [],
     "costs": [
@@ -38,7 +38,7 @@
     "key": "amulet-coin",
     "name": "Amulet Coin",
     "description": "Doubles money in battle if the holder takes part.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/amulet_coin.png",
     "locations": [
       "Goldenrod City Department Store Basement Item Ball"
@@ -232,7 +232,7 @@
     "key": "big-root",
     "name": "Big Root",
     "description": "A held item that ups the power of HP-stealing moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/big_root.png",
     "locations": [],
     "costs": [
@@ -248,7 +248,7 @@
     "key": "black-augurite",
     "name": "Black Augurite",
     "description": "A black stone that makes some Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/black_augurite.png",
     "locations": [
       "Mahogany Town Shop Shop"
@@ -266,7 +266,7 @@
     "key": "black-belt",
     "name": "Black Belt",
     "description": "A hold item that boosts Fighting- type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/black_belt.png",
     "locations": [
       "Lake Of Rage Script/NPC"
@@ -303,7 +303,7 @@
     "key": "black-sludge",
     "name": "Black Sludge",
     "description": "Restores HP for Poison-types. Damages all others.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/black_sludge.png",
     "locations": [
       "Cerulean Cave B2F Hidden Item"
@@ -321,7 +321,7 @@
     "key": "black-glasses",
     "name": "BlackGlasses",
     "description": "A hold item that raises the power of Dark-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/black_glasses.png",
     "locations": [
       "Dark Cave North Side Script/NPC"
@@ -393,7 +393,7 @@
     "key": "booster-energy",
     "name": "Booster Energy",
     "description": "Encapsuled energy ups Pokémon with certain Abilities.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/booster_energy.png",
     "locations": [],
     "costs": [],
@@ -422,7 +422,7 @@
     "key": "bright-powder",
     "name": "Bright Powder",
     "description": "A hold item that casts a glare to reduce accuracy.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/bright_powder.png",
     "locations": [
       "Battle Arena long streak",
@@ -575,7 +575,7 @@
     "key": "cell-battery",
     "name": "Cell Battery",
     "description": "Raises Attack if the holder is hit by an Electric move.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/cell_battery.png",
     "locations": [],
     "costs": [
@@ -591,7 +591,7 @@
     "key": "charcoal",
     "name": "Charcoal",
     "description": "A hold item that raises the power of Fire-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/charcoal.png",
     "locations": [
       "Azalea Town House1 Script/NPC",
@@ -648,7 +648,7 @@
     "key": "choice-band",
     "name": "Choice Band",
     "description": "Boosts Attack, but allows the use of only one move.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/choice_band.png",
     "locations": [
       "Battle Arena long streak",
@@ -669,7 +669,7 @@
     "key": "choice-specs",
     "name": "Choice Specs",
     "description": "Boosts Sp. Atk, but allows the use of only one move.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/choice_specs.png",
     "locations": [
       "Lake Of Rage Hidden Item"
@@ -700,7 +700,7 @@
     "key": "cleanse-tag",
     "name": "Cleanse Tag",
     "description": "A hold item that helps repel wild Pokémon.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/cleanse_tag.png",
     "locations": [
       "Route5 House Script/NPC"
@@ -757,7 +757,7 @@
     "key": "dawn-stone",
     "name": "Dawn Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/dawn_stone.png",
     "locations": [
       "Mahogany Town Shop Shop",
@@ -776,7 +776,7 @@
     "key": "deep-sea-scale",
     "name": "Deep Sea Scale",
     "description": "A hold item that raises the Sp. Def of Clamperl.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/deep_sea_scale.png",
     "locations": [
       "Route20 Hidden Item"
@@ -794,7 +794,7 @@
     "key": "deep-sea-tooth",
     "name": "Deep Sea Tooth",
     "description": "A hold item that raises the Sp. Atk of Clamperl.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/deep_sea_tooth.png",
     "locations": [
       "Route20 Hidden Item"
@@ -812,7 +812,7 @@
     "key": "destiny-knot",
     "name": "Destiny Knot",
     "description": "If the holder falls in love, the foe does too.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/destiny_knot.png",
     "locations": [
       "Route27 Item Ball"
@@ -877,7 +877,7 @@
     "key": "dragon-fang",
     "name": "Dragon Fang",
     "description": "A hold item that raises the power of Dragon-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/dragon_fang.png",
     "locations": [
       "Dragons Den Cavern Item Ball"
@@ -895,7 +895,7 @@
     "key": "dragon-scale",
     "name": "Dragon Scale",
     "description": "A strange scale held by Dragon- type Pokémon.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/dragon_scale.png",
     "locations": [
       "Mahogany Town Shop Shop",
@@ -914,7 +914,7 @@
     "key": "dubious-disc",
     "name": "Dubious Disc",
     "description": "A clear device overflowing with dubious data.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/dubious_disc.png",
     "locations": [
       "Mahogany Town Shop Shop",
@@ -933,7 +933,7 @@
     "key": "dusk-stone",
     "name": "Dusk Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/dusk_stone.png",
     "locations": [
       "Cerulean Cave B2F Hidden Item",
@@ -952,7 +952,7 @@
     "key": "electirizer",
     "name": "Electirizer",
     "description": "Loved by a certain Pokémon. It's full of electric energy.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/electirizer.png",
     "locations": [
       "Cerulean Cave B2F Hidden Item",
@@ -971,7 +971,7 @@
     "key": "electric-seed",
     "name": "Electric Seed",
     "description": "Boosts Defense on Electric Terrain, but only one time.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/electric_seed.png",
     "locations": [],
     "costs": [
@@ -1112,7 +1112,7 @@
     "key": "everstone",
     "name": "Everstone",
     "description": "A wondrous hold item that prevents evolution.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/everstone.png",
     "locations": [
       "New Bark Town Lab Script/NPC"
@@ -1130,7 +1130,7 @@
     "key": "exp-share-small",
     "name": "Exp Share Small",
     "description": "A held item that gets Exp. Points from battles.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/exp_share_small.png",
     "locations": [
       "Goldenrod City Department Store Basement Item Ball",
@@ -1150,7 +1150,7 @@
     "key": "expert-belt",
     "name": "Expert Belt",
     "description": "A belt that boosts the power of super effective moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/expert_belt.png",
     "locations": [
       "Mt. Silver 1F Waterfall Room Hidden Item"
@@ -1168,7 +1168,7 @@
     "key": "fairy-gem",
     "name": "Fairy Gem",
     "description": "Increases the power of Fairy Type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/fairy_gem.png",
     "locations": [
       "Route8 Hidden Item"
@@ -1204,7 +1204,7 @@
     "key": "fire-stone",
     "name": "Fire Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/fire_stone.png",
     "locations": [
       "Bug Contest 2nd place",
@@ -1225,7 +1225,7 @@
     "key": "float-stone",
     "name": "Float Stone",
     "description": "It's so light that when held, it halves a Pokémon's weight.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/float_stone.png",
     "locations": [],
     "costs": [
@@ -1241,7 +1241,7 @@
     "key": "focus-band",
     "name": "Focus Band",
     "description": "A hold item that occasionally prevents fainting.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/focus_band.png",
     "locations": [
       "Battle Arena long streak",
@@ -1311,7 +1311,7 @@
     "key": "full-incense",
     "name": "Full Incense",
     "description": "A held item that makes the holder move slower.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/full_incense.png",
     "locations": [
       "Mt. Mortar 2F Hidden Item"
@@ -1359,7 +1359,7 @@
     "key": "galarica-cuff",
     "name": "Galarica Cuff",
     "description": "A cuff from Galar that makes certain Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/galarica_cuff.png",
     "locations": [
       "Route25 Bills House Script/NPC"
@@ -1377,7 +1377,7 @@
     "key": "galarica-wreath",
     "name": "Galarica Wreath",
     "description": "A wreath made in Galar. Makes some Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/galarica_wreath.png",
     "locations": [
       "Route25 Bills House Script/NPC"
@@ -1426,7 +1426,7 @@
     "key": "grassy-seed",
     "name": "Grassy Seed",
     "description": "Boosts Defense on Grassy Terrain, but only one time.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/grassy_seed.png",
     "locations": [],
     "costs": [
@@ -1464,7 +1464,7 @@
     "key": "grip-claw",
     "name": "Grip Claw",
     "description": "A held item that extends binding moves like Wrap.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/grip_claw.png",
     "locations": [
       "Seafoam Islands B1F Hidden Item"
@@ -1666,7 +1666,7 @@
     "key": "hard-stone",
     "name": "Hard Stone",
     "description": "A hold item that raises the power of Rock-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/hard_stone.png",
     "locations": [
       "Route36 Script/NPC"
@@ -1871,7 +1871,7 @@
     "key": "ice-stone",
     "name": "Ice Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/ice_stone.png",
     "locations": [
       "Mahogany Town Shop Shop"
@@ -1937,7 +1937,7 @@
     "key": "iron-ball",
     "name": "Iron Ball",
     "description": "Cuts Speed and becomes vulnerable to Ground moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/iron_ball.png",
     "locations": [
       "Mt. Mortar 1F North Hidden Item"
@@ -1973,7 +1973,7 @@
     "key": "kings-rock",
     "name": "King's Rock",
     "description": "A hold item that may cause flinching when the foe is hit.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/kings_rock.png",
     "locations": [
       "Battle Arena long streak",
@@ -1997,7 +1997,7 @@
     "key": "lagging-tail",
     "name": "Lagging Tail",
     "description": "A held item that makes the holder move slower.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/lagging_tail.png",
     "locations": [
       "Route47 Hidden Item"
@@ -2033,7 +2033,7 @@
     "key": "lax-incense",
     "name": "Lax Incense",
     "description": "A hold item that lowers the foe's accuracy.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/lax_incense.png",
     "locations": [
       "Route38 Item Ball",
@@ -2070,7 +2070,7 @@
     "key": "leaders-crest",
     "name": "Leaders Crest",
     "description": "A shard of an old blade of some sort. Held by Bisharp.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/leaders_crest.png",
     "locations": [],
     "costs": [
@@ -2086,7 +2086,7 @@
     "key": "leaf-stone",
     "name": "Leaf Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/leaf_stone.png",
     "locations": [
       "Bug Contest 1st place",
@@ -2106,7 +2106,7 @@
     "key": "stick",
     "name": "Leek",
     "description": "A hold item that raises Farfetch'd's critical-hit ratio.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/leek.png",
     "locations": [],
     "costs": [
@@ -2122,7 +2122,7 @@
     "key": "leftovers",
     "name": "Leftovers",
     "description": "A hold item that gradually restores HP in battle.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/leftovers.png",
     "locations": [
       "Battle Arena long streak",
@@ -2162,7 +2162,7 @@
     "key": "life-orb",
     "name": "Life Orb",
     "description": "Boosts move power but holder loses HP with each attack.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/life_orb.png",
     "locations": [
       "Ruins Of Alph Puzzle And Reward Chambers Item Ball"
@@ -2180,7 +2180,7 @@
     "key": "light-ball",
     "name": "Light Ball",
     "description": "A hold item that raises the Atk and Sp. Atk of Pikachu.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/light_ball.png",
     "locations": [],
     "costs": [
@@ -2196,7 +2196,7 @@
     "key": "light-clay",
     "name": "Light Clay",
     "description": "Extends the length of barrier moves used by the holder.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/light_clay.png",
     "locations": [
       "Route9 Hidden Item"
@@ -2245,7 +2245,7 @@
     "key": "lucky-egg",
     "name": "Lucky Egg",
     "description": "A hold item that boosts Exp. points earned in battle.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/lucky_egg.png",
     "locations": [
       "Route47 Hidden Item"
@@ -2263,7 +2263,7 @@
     "key": "lucky-punch",
     "name": "Lucky Punch",
     "description": "A hold item that raises Chansey's critical-hit rate.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/lucky_punch.png",
     "locations": [
       "Route14 Hidden Item",
@@ -2300,7 +2300,7 @@
     "key": "luminous-moss",
     "name": "Luminous Moss",
     "description": "Raises Sp. Def if the holder is hit by a Water-type move.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/luminous_moss.png",
     "locations": [],
     "costs": [
@@ -2365,7 +2365,7 @@
     "key": "magmarizer",
     "name": "Magmarizer",
     "description": "Loved by a certain Pokémon. It's full of magma energy.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/magmarizer.png",
     "locations": [
       "Mahogany Town Shop Shop"
@@ -2383,7 +2383,7 @@
     "key": "magnet",
     "name": "Magnet",
     "description": "A hold item that boosts Electric- type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/magnet.png",
     "locations": [
       "Route37 Script/NPC"
@@ -2548,7 +2548,7 @@
     "key": "mental-herb",
     "name": "Mental Herb",
     "description": "Snaps Pokémon out of move-binding effects.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/mental_herb.png",
     "locations": [
       "Battle Arena long streak",
@@ -2569,7 +2569,7 @@
     "key": "metal-coat",
     "name": "Metal Coat",
     "description": "A hold item that raises the power of Steel-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/metal_coat.png",
     "locations": [
       "Mahogany Town Shop Shop",
@@ -2588,7 +2588,7 @@
     "key": "metal-powder",
     "name": "Metal Powder",
     "description": "A hold item that raises Ditto's Defense.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/metal_powder.png",
     "locations": [],
     "costs": [
@@ -2617,7 +2617,7 @@
     "key": "metronome",
     "name": "Metronome",
     "description": "A held item that boosts a move used consecutively.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/metronome.png",
     "locations": [],
     "costs": [
@@ -2655,7 +2655,7 @@
     "key": "miracle-seed",
     "name": "Miracle Seed",
     "description": "A hold item that raises the power of Grass-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/miracle_seed.png",
     "locations": [
       "Route32 Script/NPC"
@@ -2673,7 +2673,7 @@
     "key": "mirror-herb",
     "name": "Mirror Herb",
     "description": "Mirrors an enemy's stat increases but only once.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/mirror_herb.png",
     "locations": [
       "Goldenrod City Flower Shop Shop"
@@ -2691,7 +2691,7 @@
     "key": "misty-seed",
     "name": "Misty Seed",
     "description": "Boosts Sp. Def. on Misty Terrain, but only one time.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/misty_seed.png",
     "locations": [],
     "costs": [
@@ -2744,7 +2744,7 @@
     "key": "moon-stone",
     "name": "Moon Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/moon_stone.png",
     "locations": [
       "Bug Contest 1st place",
@@ -2779,7 +2779,7 @@
     "key": "mystic-water",
     "name": "Mystic Water",
     "description": "A hold item that raises the power of Water-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/mystic_water.png",
     "locations": [
       "Cherrygrove City Script/NPC"
@@ -2833,7 +2833,7 @@
     "key": "never-melt-ice",
     "name": "NeverMeltIce",
     "description": "A hold item that raises the power of Ice-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/never_melt_ice.png",
     "locations": [
       "Ice Path B4F Item Ball",
@@ -2874,7 +2874,7 @@
     "key": "odd-incense",
     "name": "Odd Incense",
     "description": "A hold item that boosts Psychic- type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/odd_incense.png",
     "locations": [
       "Cerulean Cave B1F Hidden Item"
@@ -2964,7 +2964,7 @@
     "key": "oval-stone",
     "name": "Oval Stone",
     "description": "Peculiar stone that evolves a certain Pokémon.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/oval_stone.png",
     "locations": [
       "Mahogany Town Shop Shop",
@@ -3047,7 +3047,7 @@
     "key": "peat-block",
     "name": "Peat Block",
     "description": "A block of material that makes some Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/peat_block.png",
     "locations": [
       "Mahogany Town Shop Shop"
@@ -3122,7 +3122,7 @@
     "key": "poison-barb",
     "name": "Poison Barb",
     "description": "A hold item that raises the power of Poison-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/poison_barb.png",
     "locations": [
       "Route32 Script/NPC"
@@ -3232,7 +3232,7 @@
     "key": "power-herb",
     "name": "Power Herb",
     "description": "Allows immediate use of a move that charges first.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/power_herb.png",
     "locations": [],
     "costs": [
@@ -3305,7 +3305,7 @@
     "key": "protector",
     "name": "Protector",
     "description": "Loved by a certain Pokémon. It's stiff and heavy.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/protector.png",
     "locations": [
       "Mahogany Town Shop Shop",
@@ -3357,7 +3357,7 @@
     "key": "psychic-seed",
     "name": "Psychic Seed",
     "description": "Boosts Sp. Def. on Psychic Terrain, but only one time.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/psychic_seed.png",
     "locations": [],
     "costs": [
@@ -3373,7 +3373,7 @@
     "key": "pure-incense",
     "name": "Pure Incense",
     "description": "A hold item that helps repel wild Pokémon.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/pure_incense.png",
     "locations": [
       "Mt. Silver Snow Hidden Item"
@@ -3407,7 +3407,7 @@
     "key": "quick-claw",
     "name": "Quick Claw",
     "description": "A hold item that occasionally allows the first strike.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/quick_claw.png",
     "locations": [
       "Battle Arena long streak",
@@ -3429,7 +3429,7 @@
     "key": "quick-powder",
     "name": "Quick Powder",
     "description": "A hold item that raises the Speed of Ditto.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/quick_powder.png",
     "locations": [],
     "costs": [
@@ -3567,7 +3567,7 @@
     "key": "razor-claw",
     "name": "Razor Claw",
     "description": "A hooked claw that ups the holder's critical-hit ratio.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/razor_claw.png",
     "locations": [
       "Mahogany Town Shop Shop"
@@ -3585,7 +3585,7 @@
     "key": "razor-fang",
     "name": "Razor Fang",
     "description": "A hold item that may cause flinching when the foe is hit.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/razor_fang.png",
     "locations": [
       "Mahogany Town Shop Shop"
@@ -3603,7 +3603,7 @@
     "key": "reaper-cloth",
     "name": "Reaper Cloth",
     "description": "Loved by a certain Pokémon. Imbued with spirit energy.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/reaper_cloth.png",
     "locations": [
       "Mahogany Town Shop Shop",
@@ -3792,7 +3792,7 @@
     "key": "rose-incense",
     "name": "Rose Incense",
     "description": "A hold item that raises the power of Grass-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/rose_incense.png",
     "locations": [
       "Route15 Hidden Item"
@@ -3846,7 +3846,7 @@
     "key": "scope-lens",
     "name": "Scope Lens",
     "description": "A hold item that improves the critical-hit rate.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/scope_lens.png",
     "locations": [
       "Battle Arena long streak",
@@ -3867,7 +3867,7 @@
     "key": "sea-incense",
     "name": "Sea Incense",
     "description": "A hold item that slightly boosts Water-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/sea_incense.png",
     "locations": [
       "Cerulean Cave 1F Hidden Item",
@@ -3917,7 +3917,7 @@
     "key": "sharp-beak",
     "name": "Sharp Beak",
     "description": "A hold item that raises the power of Flying-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/sharp_beak.png",
     "locations": [
       "Phone call: Jose",
@@ -3937,7 +3937,7 @@
     "key": "shed-shell",
     "name": "Shed Shell",
     "description": "Allows the holder to switch out without fail.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/shed_shell.png",
     "locations": [],
     "costs": [
@@ -3953,7 +3953,7 @@
     "key": "shell-bell",
     "name": "Shell Bell",
     "description": "A hold item that restores HP upon striking the foe.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/shell_bell.png",
     "locations": [
       "Route20 Item Ball",
@@ -3985,7 +3985,7 @@
     "key": "shiny-stone",
     "name": "Shiny Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/shiny_stone.png",
     "locations": [
       "Mahogany Town Shop Shop"
@@ -4003,7 +4003,7 @@
     "key": "silk-scarf",
     "name": "Silk Scarf",
     "description": "A hold item that raises the power of Normal-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/silk_scarf.png",
     "locations": [
       "Phone call: Jose",
@@ -4036,7 +4036,7 @@
     "key": "silver-powder",
     "name": "SilverPowder",
     "description": "A hold item that raises the power of Bug-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/silver_powder.png",
     "locations": [],
     "costs": [
@@ -4070,7 +4070,7 @@
     "key": "smoke-ball",
     "name": "Smoke Ball",
     "description": "A hold item that assures fleeing from wild Pokémon.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/smoke_ball.png",
     "locations": [
       "Goldenrod City Underground Switches Item Ball"
@@ -4088,7 +4088,7 @@
     "key": "snowball",
     "name": "Snowball",
     "description": "Raises Atk if its holder is hit by an Ice-type move.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/snowball.png",
     "locations": [],
     "costs": [
@@ -4122,7 +4122,7 @@
     "key": "soft-sand",
     "name": "Soft Sand",
     "description": "A hold item that raises the power of Ground-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/soft_sand.png",
     "locations": [
       "Route34 Item Ball"
@@ -4140,7 +4140,7 @@
     "key": "soothe-bell",
     "name": "Soothe Bell",
     "description": "A hold item that calms spirits and fosters friendship.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/soothe_bell.png",
     "locations": [
       "National Park Normal Item Ball"
@@ -4158,7 +4158,7 @@
     "key": "soul-dew",
     "name": "Soul Dew",
     "description": "Powers up Latios' & Latias' Psychic and Dragon-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/soul_dew.png",
     "locations": [
       "Southern Island Interior Hidden Item"
@@ -4171,7 +4171,7 @@
     "key": "spell-tag",
     "name": "Spell Tag",
     "description": "A hold item that raises the power of Ghost-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/spell_tag.png",
     "locations": [
       "Blackthorn City Script/NPC",
@@ -4266,7 +4266,7 @@
     "key": "sticky-barb",
     "name": "Sticky Barb",
     "description": "Damages the holder each turn. May latch on to foes.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/sticky_barb.png",
     "locations": [],
     "costs": [
@@ -4300,7 +4300,7 @@
     "key": "sun-stone",
     "name": "Sun Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/sun_stone.png",
     "locations": [
       "Bug Contest 1st place"
@@ -5975,7 +5975,7 @@
     "key": "thick-club",
     "name": "Thick Club",
     "description": "A hold item that raises Cubone or Marowak's Attack.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/thick_club.png",
     "locations": [],
     "costs": [
@@ -5991,7 +5991,7 @@
     "key": "thunder-stone",
     "name": "Thunder Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/thunder_stone.png",
     "locations": [
       "Bug Contest 2nd place",
@@ -6094,7 +6094,7 @@
     "key": "twisted-spoon",
     "name": "TwistedSpoon",
     "description": "A hold item that boosts Psychic- type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/twisted_spoon.png",
     "locations": [],
     "costs": [
@@ -6164,7 +6164,7 @@
     "key": "water-stone",
     "name": "Water Stone",
     "description": "Makes certain species of Pokémon evolve.",
-    "category": "Items",
+    "category": "Evolution",
     "sprite": "assets/item-dex/water_stone.png",
     "locations": [
       "Bug Contest 2nd place",
@@ -6189,7 +6189,7 @@
     "key": "wave-incense",
     "name": "Wave Incense",
     "description": "A hold item that slightly boosts Water-type moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/wave_incense.png",
     "locations": [
       "Route47 Hidden Item"
@@ -6225,7 +6225,7 @@
     "key": "white-herb",
     "name": "White Herb",
     "description": "A hold item that restores any lowered stat.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/white_herb.png",
     "locations": [
       "Battle Arena long streak",
@@ -6246,7 +6246,7 @@
     "key": "wide-lens",
     "name": "Wide Lens",
     "description": "A magnifying lens that boosts the accuracy of moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/wide_lens.png",
     "locations": [],
     "costs": [
@@ -6262,7 +6262,7 @@
     "key": "wise-glasses",
     "name": "Wise Glasses",
     "description": "A pair of glasses that ups the power of special moves.",
-    "category": "Items",
+    "category": "Held Items",
     "sprite": "assets/item-dex/wise_glasses.png",
     "locations": [
       "Pewter City Hidden Item"

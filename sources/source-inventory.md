@@ -13,7 +13,7 @@
 | Move tutors and services | Official tagged teachable data and map scripts; generated `moves.html` | v2.0.2 | Primary | Yes | 33 documented tutors with locations and displayed cost/availability. |
 | Wild encounters | Official tagged `src/data/wild_encounters.json`; generated `encounters.html` | v2.0.2 | Primary | Yes | 146 locations and 2,872 day/night encounter rows. |
 | Other acquisition methods | Official tagged map scripts; generated `statics.html` | v2.0.2 | Primary | Yes | 66 static, gift, trade and fossil records imported. |
-| Items and shops | Official tagged `src/data/items.h`, item text and map scripts; generated `items.html` | v2.0.2 | Primary | Yes | 350 items with descriptions, placements, costs and local sprites. |
+| Items and shops | Official tagged `src/data/items.h`, item text and map scripts; generated `items.html` | v2.0.2 | Primary | Yes | 350 items with descriptions, placements, costs and local sprites. Held/evolution classification uses authoritative `holdEffect` and `sortType` metadata because the generated page's broad “Items” badge only identifies the bag pocket. |
 | Trainer battles | Official tagged `src/data/trainers_hns.party` and map scripts; generated `trainers.html` | v2.0.2 | Primary | Yes | 84 boss variants and 368 team members; undocumented trigger locations are labelled as not supplied. |
 | Trainer profile, starter and rival rules | | | | No | |
 | Badges | Official tagged flag constants, gym/event scripts and official art; read-only v1 UX reference | v2.0.2 | Primary plus design reference | Yes | Sixteen-badge tracker imported; badge effects are not claimed. |

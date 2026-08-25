@@ -1,10 +1,10 @@
 # Guide setup status
 
-- Status: Local build approved
-- Current phase: Local MVP review
-- Readiness: Local MVP built and validated
-- Last updated: 2026-08-24
-- Next question: None; build the approved local MVP and present it for review before any push or deployment.
+- Status: Public MVP deployed
+- Current phase: User testing and iterative fixes
+- Readiness: Advanced MVP live and validated
+- Last updated: 2026-08-25
+- Next question: Continue user testing and address source-backed corrections as they are found.
 
 ## Progress
 
@@ -18,14 +18,14 @@
 | Planning data | Complete | 934 moves, 33 tutors, dual learnsets, 350 items and planning tools |
 | Advanced data | MVP complete | 84 boss variants, 16 badges, Battle Check and save/sync UX; trainer profile/maps remain later |
 | Local build | Complete | Generic validation, HnS coverage audit, asset audit and desktop/mobile browser review pass |
-| Deployment | Deferred | Requires explicit approval |
+| Deployment | Complete | Public repository and GitHub Pages are live; subsequent fixes deploy after validation. |
 
 ## Confirmed decisions
 
 - Identity: Pokémon Heart & Soul, version 2.0.2, region Johto and Kanto, base ROM/platform Pokémon Emerald.
 - Baseline: ultra-sun-ultra-moon, National Dex 1025, local normal/shiny sprites enabled.
 - Save namespace: `pokemon-heart-soul-v2-field-guide`.
-- Local MVP build approved on 2026-08-24; remote repository creation, push, sync deployment and Pages deployment remain deferred.
+- Local MVP build and public GitHub Pages deployment approved on 2026-08-24. Cloud sync worker deployment remains deferred until an endpoint is configured and approved.
 
 ## Source coverage
 
@@ -41,7 +41,7 @@
 
 ## Open questions
 
-- Review and approve the local MVP before repository creation or push.
+- Continue testing the live guide and report any mismatches against the v2.0.2 game.
 
 ## Activity log
 
@@ -49,3 +49,4 @@
 - Assessment approved; feature scope and official source URLs recorded; local MVP build started.
 - Official release/docs pins acquired; reproducible importer, merge, source-specific audit and local asset pipeline completed.
 - Desktop and 390px mobile review completed with no broken images, console errors or page-level horizontal overflow.
+- Corrected the reproducible item importer so source-defined held items such as Hard Stone are selectable in Team Builder; broad documentation pocket labels no longer hide held/evolution classifications.
