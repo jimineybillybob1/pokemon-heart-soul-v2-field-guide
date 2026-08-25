@@ -45,6 +45,8 @@
 
 ## Activity log
 
+- 2026-08-25: Fixed roster-card slot resolution in Team Builder, Team Planner, and the home overview. Enhancements now use each card's actual six-slot position, preventing a Pokémon placed after an empty slot from displaying another team member's sprite or rank/shiny state.
+
 - Project scaffold created; identity and baseline profile recorded.
 - Assessment approved; feature scope and official source URLs recorded; local MVP build started.
 - Official release/docs pins acquired; reproducible importer, merge, source-specific audit and local asset pipeline completed.
