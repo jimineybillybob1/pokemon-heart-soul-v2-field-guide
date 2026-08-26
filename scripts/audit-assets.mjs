@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -7,11 +8,18 @@ const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const guide = read('data/guide-data.json');
 const items = read('data/items-data.json');
 const config = read('config/game-config.json');
+const battles = read('data/battle-data.json');
+const overrideContext = { window: {} };
+vm.runInNewContext(fs.readFileSync(path.join(root, 'config/game-overrides.js'), 'utf8'), overrideContext);
+const runtimeOverrides = overrideContext.window.GUIDE_OVERRIDES || {};
 const references = [
   ...guide.pokemon.flatMap(p => [p.sprite, p.shinySprite].filter(Boolean).map(file => [`Pokémon ${p.key}`, file])),
   ...items.filter(item => item.sprite).map(item => [`Item ${item.name}`, item.sprite]),
   ...Object.entries(config.branding || {}).filter(([, file]) => typeof file === 'string' && /[/.]/.test(file)).map(([key, file]) => [`Branding ${key}`, file]),
-  ...(config.badges || []).filter(badge => badge.image).map(badge => [`Badge ${badge.name}`, badge.image])
+  ...(config.badges || []).filter(badge => badge.image).map(badge => [`Badge ${badge.name}`, badge.image]),
+  ...(runtimeOverrides.trainerCostumes || []).filter(costume => costume.sprite).map(costume => [`Trainer costume ${costume.name}`, costume.sprite]),
+  ...(runtimeOverrides.rivalSprite ? [['Rival profile', runtimeOverrides.rivalSprite]] : []),
+  ...(battles.battles || []).filter(battle => battle.trainerSprite).map(battle => [`Battle trainer ${battle.trainer}`, battle.trainerSprite])
 ];
 const localReferences = references.filter(([, file]) => file && !/^(?:https?:|data:)/i.test(file));
 const missing = localReferences.filter(([, file]) => !fs.existsSync(path.join(root, file)));

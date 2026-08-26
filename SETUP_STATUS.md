@@ -3,7 +3,7 @@
 - Status: Public MVP deployed
 - Current phase: User testing and iterative fixes
 - Readiness: Advanced MVP live and validated
-- Last updated: 2026-08-25
+- Last updated: 2026-08-26
 - Next question: Continue user testing and address source-backed corrections as they are found.
 
 ## Progress
@@ -12,11 +12,11 @@
 |---|---|---|
 | Identity | Complete | Pokémon Heart & Soul 2.0.2; Johto and Kanto; Pokémon Emerald |
 | Baseline profile | Complete | ultra-sun-ultra-moon; Dex 1025; local sprites yes |
-| Feature scope | Complete | Core and Planning required; source-backed battles, badges and encrypted sync required; profile/maps later |
+| Feature scope | Complete | Core and Planning required; source-backed battles, badges, trainer identity and encrypted sync enabled; maps later |
 | Source inventory | Complete | Official v2.0.2 tag, official generated documentation, pinned PokeAPI fallback and read-only v1 reference |
 | Core data | Complete | 1,305 forms, 146 locations, 2,872 encounter rows and 66 other acquisition records |
 | Planning data | Complete | 934 moves, 33 tutors, dual learnsets, 350 items and planning tools |
-| Advanced data | MVP complete | 84 boss variants, 16 badges, Battle Check and save/sync UX; trainer profile/maps remain later |
+| Advanced data | MVP complete | 84 boss variants, 16 badges, Battle Check, trainer profile and encrypted save/sync UX; maps remain later |
 | Local build | Complete | Generic validation, HnS coverage audit, asset audit and desktop/mobile browser review pass |
 | Deployment | Complete | Public repository and GitHub Pages are live; subsequent fixes deploy after validation. |
 
@@ -25,7 +25,7 @@
 - Identity: Pokémon Heart & Soul, version 2.0.2, region Johto and Kanto, base ROM/platform Pokémon Emerald.
 - Baseline: ultra-sun-ultra-moon, National Dex 1025, local normal/shiny sprites enabled.
 - Save namespace: `pokemon-heart-soul-v2-field-guide`.
-- Local MVP build and public GitHub Pages deployment approved on 2026-08-24. Cloud sync worker deployment remains deferred until an endpoint is configured and approved.
+- Local MVP build and public GitHub Pages deployment approved on 2026-08-24. Cloud sync reuses the existing compatible Heart & Soul Worker; the v2 storage namespace keeps its encrypted records separate from v1.
 
 ## Source coverage
 
@@ -44,6 +44,8 @@
 - Continue testing the live guide and report any mismatches against the v2.0.2 game.
 
 ## Activity log
+
+- 2026-08-26: Enabled first-run trainer setup with player and rival names, official Gold/Kris/Silver sprites, personalized Rival battle labels, and the existing encrypted Cloudflare sync endpoint.
 
 - 2026-08-25: Fixed roster-card slot resolution in Team Builder, Team Planner, and the home overview. Enhancements now use each card's actual six-slot position, preventing a Pokémon placed after an empty slot from displaying another team member's sprite or rank/shiny state.
 

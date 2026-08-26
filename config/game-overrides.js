@@ -14,11 +14,16 @@ window.GUIDE_OVERRIDES = {
   profileDefaults: {
     name: 'Trainer',
     gender: 'male',
-    costume: '',
+    costume: 'gold',
     starter: '',
-    rivalName: 'Rival'
+    rivalName: 'Silver'
   },
-  trainerCostumes: [],
+  // Official v2.0.2 front sprites from graphics/trainers/front_pics.
+  trainerCostumes: [
+    {id: 'gold', name: 'Gold', gender: 'male', sprite: 'assets/trainers/gold_hns.png'},
+    {id: 'kris', name: 'Kris', gender: 'female', sprite: 'assets/trainers/kris_hns.png'}
+  ],
+  rivalSprite: 'assets/trainers/silver_hns.png',
   rivalStarterCounters: {},
   acquisitionNotes: {},
   mapPositions: {}

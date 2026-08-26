@@ -373,7 +373,7 @@ for (const card of blocks(fs.readFileSync(path.join(docs, 'trainers.html'), 'utf
     }).filter(member => member.name);
     battles.push({
       id: slug(sourceId || `${trainer}-${battles.length + 1}`), sourceId, trainer, trainerSprite: `assets/trainers/${trainerImage}`,
-      role, category, location, mode: 'default', boss: true,
+      role, category, location, mode: 'default', boss: true, rival: category === 'Rival',
       rematch: /rematch/i.test(locationNote) || /_2_|_REMATCH/i.test(sourceId), notes, team,
       levelMin: Math.min(...team.map(member => member.level)), levelMax: Math.max(...team.map(member => member.level))
     });

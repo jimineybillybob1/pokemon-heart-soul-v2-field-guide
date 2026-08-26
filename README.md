@@ -11,7 +11,8 @@ An offline-friendly, GitHub Pages-ready field guide for Pokémon Heart & Soul v2
 - 84 documented boss-battle variants with 368 team members
 - Team Builder, Future Team, Favorites, saved teams and Battle Check
 - Johto/Kanto badge tracking, caught progress and local save export/import
-- Optional Cloudflare Worker sync pattern, disabled until an endpoint is configured
+- Encrypted Cloudflare save sync using the existing Heart & Soul Worker; v1 and v2 saves remain isolated by their guide namespaces
+- First-run trainer setup with custom player/rival names and official Gold, Kris and Silver character sprites
 - Installable static web app with local assets and runtime offline caching
 - SteamGridDB-sourced Ho-Oh/Lugia presentation art, logo and icon cached locally for offline use, with an artwork-derived Heart/Soul colour palette
 - Generated Heart/Soul home-screen artwork with dedicated iPhone, iPad and installable-web-app icon sizes

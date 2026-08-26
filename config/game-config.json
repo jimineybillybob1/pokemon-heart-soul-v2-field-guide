@@ -25,7 +25,7 @@
     "futureTeam": true,
     "favorites": true,
     "battles": true,
-    "trainerProfile": false,
+    "trainerProfile": true,
     "badges": true,
     "maps": false,
     "cloudSync": true

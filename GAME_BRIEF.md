@@ -42,10 +42,10 @@ Mark each as `required`, `later`, or `disabled`.
 - Saved complete teams and suggested teams: required
 - Trainer battle guide: required for documented bosses
 - Battle Planner: required as Battle Check
-- Trainer profile/card, starter and rival mapping: later
+- Trainer profile/card and player/rival naming: required and enabled; starter-dependent filtering remains later
 - Badges and progress: required
 - Region maps: later
-- Cloud save and sync: required, deployment deferred
+- Cloud save and sync: required and enabled through the existing encrypted Heart & Soul Cloudflare Worker
 
 ## Special mechanics
 
@@ -75,4 +75,4 @@ Document unusual evolution rules, reversible forms, form-specific move retention
 - GitHub owner: jimineybillybob1
 - Repository name: pokemon-heart-soul-v2-field-guide (proposed; remote creation deferred)
 - GitHub Pages URL:
-- Cloud sync endpoint, if already available:
+- Cloud sync endpoint, if already available: https://heart-soul-field-guide-sync.james-stewart1992.workers.dev

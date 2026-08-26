@@ -14,6 +14,7 @@
       "location": "Violet Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -53,6 +54,7 @@
       "location": "Celadon Department Store",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Celadon Department Store — After you reach Vermilion",
@@ -145,6 +147,7 @@
       "location": "Azalea Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Potion / Potion"
@@ -200,6 +203,7 @@
       "location": "Viridian Forest",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Viridian Forest — After you reach Vermilion",
@@ -292,6 +296,7 @@
       "location": "Goldenrod Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Super Potion / Potion"
@@ -347,6 +352,7 @@
       "location": "Goldenrod Department Store",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Goldenrod Department Store — After you reach Vermilion",
@@ -439,6 +445,7 @@
       "location": "Ecruteak Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Super Potion / Super Potion"
@@ -506,6 +513,7 @@
       "location": "Bellchime Trail",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Bellchime Trail — After you reach Vermilion",
@@ -598,6 +606,7 @@
       "location": "Cianwood Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Super Potion / Super Potion"
@@ -664,6 +673,7 @@
       "location": "Cianwood Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -741,6 +751,7 @@
       "location": "Cianwood Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -819,6 +830,7 @@
       "location": "Cianwood Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Cianwood Gym — After you reach Vermilion",
@@ -909,6 +921,7 @@
       "location": "Olivine Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Super Potion / Super Potion"
@@ -988,6 +1001,7 @@
       "location": "Olivine Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1067,6 +1081,7 @@
       "location": "Olivine Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1146,6 +1161,7 @@
       "location": "Olivine Cafe",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Olivine Cafe — After you reach Vermilion",
@@ -1238,6 +1254,7 @@
       "location": "Mahogany Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Super Potion / Super Potion"
@@ -1304,6 +1321,7 @@
       "location": "Mahogany Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1382,6 +1400,7 @@
       "location": "Mahogany Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1460,6 +1479,7 @@
       "location": "Lake of Rage",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Lake of Rage — After you reach Vermilion",
@@ -1552,6 +1572,7 @@
       "location": "Blackthorn Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1631,6 +1652,7 @@
       "location": "Dragon's Den",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Rematch: Dragon's Den — After you reach Vermilion",
@@ -1723,6 +1745,7 @@
       "location": "Pewter Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1814,6 +1837,7 @@
       "location": "Cerulean Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1905,6 +1929,7 @@
       "location": "Vermilion Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -1996,6 +2021,7 @@
       "location": "Celadon Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2087,6 +2113,7 @@
       "location": "Fuchsia Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2178,6 +2205,7 @@
       "location": "Saffron Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2269,6 +2297,7 @@
       "location": "Cinnabar Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2360,6 +2389,7 @@
       "location": "Viridian Gym",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2451,6 +2481,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2530,6 +2561,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2621,6 +2653,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2700,6 +2733,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2791,6 +2825,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2869,6 +2904,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -2959,6 +2995,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -3036,6 +3073,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -3127,6 +3165,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -3218,6 +3257,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -3309,6 +3349,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -3364,6 +3405,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [],
       "team": [
@@ -3391,6 +3433,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": true,
       "notes": [
         "Carries: Potion"
@@ -3446,6 +3489,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Super Potion"
@@ -3513,6 +3557,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Hyper Potion"
@@ -3592,6 +3637,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Hyper Potion"
@@ -3682,6 +3728,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -3773,6 +3820,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -3864,6 +3912,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [],
       "team": [
@@ -3891,6 +3940,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": true,
       "notes": [
         "Carries: Potion"
@@ -3946,6 +3996,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Super Potion"
@@ -4013,6 +4064,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Super Potion"
@@ -4092,6 +4144,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Hyper Potion"
@@ -4182,6 +4235,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -4273,6 +4327,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -4364,6 +4419,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [],
       "team": [
@@ -4391,6 +4447,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": true,
       "notes": [
         "Carries: Potion"
@@ -4446,6 +4503,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Super Potion"
@@ -4513,6 +4571,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Super Potion"
@@ -4592,6 +4651,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Hyper Potion"
@@ -4682,6 +4742,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -4773,6 +4834,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": true,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -4864,6 +4926,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -4943,6 +5006,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -4997,6 +5061,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -5075,6 +5140,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -5165,6 +5231,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -5232,6 +5299,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -5299,6 +5367,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5352,6 +5421,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -5431,6 +5501,7 @@
       "location": "Ecruteak Dance Theatre",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5460,6 +5531,7 @@
       "location": "Ecruteak Dance Theatre",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5489,6 +5561,7 @@
       "location": "Ecruteak Dance Theatre",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5518,6 +5591,7 @@
       "location": "Ecruteak Dance Theatre",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5547,6 +5621,7 @@
       "location": "Ecruteak Dance Theatre",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5576,6 +5651,7 @@
       "location": "Battle Tower",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5602,6 +5678,7 @@
       "location": "Battle Arena",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5628,6 +5705,7 @@
       "location": "Battle Pike",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5654,6 +5732,7 @@
       "location": "Battle Factory",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5695,6 +5774,7 @@
       "location": "Battle Palace",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5721,6 +5801,7 @@
       "location": "Battle Dome",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [
@@ -5762,6 +5843,7 @@
       "location": "Location not supplied",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -5817,6 +5899,7 @@
       "location": "Mt. Silver",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": true,
       "notes": [
         "Carries: Full Restore / Full Restore"
@@ -5908,6 +5991,7 @@
       "location": "Indigo Plateau",
       "mode": "default",
       "boss": true,
+      "rival": false,
       "rematch": false,
       "notes": [],
       "team": [

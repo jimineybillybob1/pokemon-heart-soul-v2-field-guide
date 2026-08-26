@@ -61,6 +61,14 @@ unique(moveTutors.services || [], 'id', 'move service');
 unique(config.badges || [], 'id', 'badge');
 
 if (config.features?.badges) requireValue(Array.isArray(config.badges) && config.badges.length > 0, 'Badge tracking is enabled but no badges are configured.');
+if (config.features?.trainerProfile) {
+  const costumes = runtimeOverrides.trainerCostumes || [];
+  requireValue(Array.isArray(costumes) && costumes.length > 0, 'Trainer profile is enabled but no trainer costumes are configured.');
+  unique(costumes, 'id', 'trainer costume');
+  for (const costume of costumes) requireValue(costume.id && costume.name && costume.gender && costume.sprite, `Trainer costume requires id, name, gender and sprite: ${JSON.stringify(costume)}`);
+  requireValue(costumes.some(costume => costume.id === runtimeOverrides.profileDefaults?.costume), 'Trainer profile default costume must resolve.');
+  requireValue(Boolean(runtimeOverrides.rivalSprite), 'Trainer profile requires a rival sprite.');
+}
 for (const badge of config.badges || []) {
   requireValue(badge.id && badge.name && badge.region && badge.image, `Badge requires id, name, region and image: ${JSON.stringify(badge)}`);
   if (badge.code != null) requireValue(Boolean(String(badge.code).trim()), `${badge.name || badge.id}: badge code must be a non-empty string when supplied.`);
@@ -130,6 +138,7 @@ for (const battle of battles.battles || []) {
   requireValue(Array.isArray(battle.team) && (battle.team.length > 0 || battle.hiddenTeam === true), `${battle.id}: battle team must be populated unless the source intentionally hides it.`);
   requireValue(battle.subarea == null || typeof battle.subarea === 'string', `${battle.id}: battle subarea must be a string when supplied.`);
   for (const field of ['boss', 'rival', 'doubleBattle', 'rematch']) if (battle[field] != null) requireValue(typeof battle[field] === 'boolean', `${battle.id}: ${field} flag must be a boolean.`);
+  if (norm(battle.category) === 'rival') requireValue(battle.rival === true, `${battle.id}: Rival category must set the rival flag for profile-name substitution.`);
   if (battle.hiddenTeam) {
     requireValue(battle.team.length === 0, `${battle.id}: intentionally hidden team must remain empty.`);
   }

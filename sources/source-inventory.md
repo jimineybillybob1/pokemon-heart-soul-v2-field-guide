@@ -15,7 +15,7 @@
 | Other acquisition methods | Official tagged map scripts; generated `statics.html` | v2.0.2 | Primary | Yes | 66 static, gift, trade and fossil records imported. |
 | Items and shops | Official tagged `src/data/items.h`, item text and map scripts; generated `items.html` | v2.0.2 | Primary | Yes | 350 items with descriptions, placements, costs and local sprites. Held/evolution classification uses authoritative `holdEffect` and `sortType` metadata because the generated page's broad “Items” badge only identifies the bag pocket. |
 | Trainer battles | Official tagged `src/data/trainers_hns.party` and map scripts; generated `trainers.html` | v2.0.2 | Primary | Yes | 84 boss variants and 368 team members; undocumented trigger locations are labelled as not supplied. |
-| Trainer profile, starter and rival rules | | | | No | |
+| Trainer profile and rival identity | Official tagged `graphics/trainers/front_pics/{gold,kris,silver}_hns.png`; generated trainer roles | v2.0.2 | Primary | Yes | Gold/Kris player choice and Silver rival identity are enabled. Starter-dependent rival battle filtering remains unimplemented. |
 | Badges | Official tagged flag constants, gym/event scripts and official art; read-only v1 UX reference | v2.0.2 | Primary plus design reference | Yes | Sixteen-badge tracker imported; badge effects are not claimed. |
 | Maps | | | | No | |
 | Sprites and artwork | Official tagged `graphics/pokemon/*`, official documentation assets and branding; read-only v1 project for reusable local backgrounds/font | v2.0.2 | Primary plus design reference | Yes | 2,793 referenced local assets verified; official sprites override generic normal sprites. |
