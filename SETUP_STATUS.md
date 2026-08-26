@@ -45,6 +45,8 @@
 
 ## Activity log
 
+- 2026-08-26: Corrected the official-documentation evolution importer to retain only forward “Evolves into” links and preserve every method condition. Team Builder and Future Team actions now say “Evolve into”; Togepi correctly shows `Level · Friendship 220+`, Togetic shows `Item · Shiny Stone`, and evolved forms no longer offer backward evolution buttons.
+
 - 2026-08-26: Enabled first-run trainer setup with player and rival names, official Gold/Kris/Silver sprites, personalized Rival battle labels, and the existing encrypted Cloudflare sync endpoint.
 
 - 2026-08-25: Fixed roster-card slot resolution in Team Builder, Team Planner, and the home overview. Enhancements now use each card's actual six-slot position, preventing a Pokémon placed after an empty slot from displaying another team member's sprite or rank/shiny state.

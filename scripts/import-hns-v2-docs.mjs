@@ -217,11 +217,18 @@ for (const card of cardJson('pokedex.html')) {
 }
 const pokemonByName = new Map(pokemon.map(record => [norm(record.name), record]));
 for (const {record, html} of pendingEvolutions) {
-  for (const line of blocks(html, 'div', 'evo-line')) {
-    const targetName = linksIn(line, 'pokedex')[0];
-    const target = pokemonByName.get(norm(targetName));
-    const method = text(line.match(/<span class="how">([\s\S]*?)<\/span>/i)?.[1]);
-    if (target && target.id !== record.id) record.evolutions.push({targetId: target.id, method: method || 'Evolution'});
+  for (const row of blocks(html, 'div', 'row')) {
+    const label = text(row.match(/<div class="row-label">([\s\S]*?)<\/div>/i)?.[1]);
+    if (!/^Evolves into$/i.test(label)) continue;
+    for (const line of blocks(row, 'div', 'evo-line')) {
+      const targetName = linksIn(line, 'pokedex')[0];
+      const target = pokemonByName.get(norm(targetName));
+      const method = [...line.matchAll(/<span class="how">([\s\S]*?)<\/span>/gi)]
+        .map(match => text(match[1]))
+        .filter(Boolean)
+        .join(' · ');
+      if (target && target.id !== record.id) record.evolutions.push({targetId: target.id, method: method || 'Evolution'});
+    }
   }
 }
 

@@ -41,6 +41,12 @@ check(!duplicates(guide.moves, 'name').length, 'Duplicate normalized move names 
 check(!duplicates(items, 'name').length, 'Duplicate normalized item names remain.');
 check(!duplicates(abilities, 'name').length, 'Duplicate normalized ability names remain.');
 check(guide.locations.reduce((sum, location) => sum + location.day.length + location.night.length, 0) === 2872, 'Wild encounter row count differs from the official documentation.');
+const togepi = guide.pokemon.find(pokemon => pokemon.id === 175);
+const togetic = guide.pokemon.find(pokemon => pokemon.id === 176);
+const togekiss = guide.pokemon.find(pokemon => pokemon.id === 468);
+check(togepi?.evolutions?.length === 1 && togepi.evolutions[0].targetId === 176 && togepi.evolutions[0].method === 'Level · Friendship 220+', 'Togepi evolution must preserve its documented friendship requirement.');
+check(togetic?.evolutions?.length === 1 && togetic.evolutions[0].targetId === 468 && togetic.evolutions[0].method === 'Item · Shiny Stone', 'Togetic must evolve forward to Togekiss with a Shiny Stone.');
+check(togekiss?.evolutions?.length === 0, 'Togekiss must not offer a reverse evolution to Togetic.');
 
 if (errors.length) {
   errors.forEach(error => console.error(`ERROR: ${error}`));
