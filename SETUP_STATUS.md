@@ -3,7 +3,7 @@
 - Status: Public MVP deployed
 - Current phase: User testing and iterative fixes
 - Readiness: Advanced MVP live and validated
-- Last updated: 2026-08-26
+- Last updated: 2026-08-27
 - Next question: Continue user testing and address source-backed corrections as they are found.
 
 ## Progress
@@ -44,6 +44,8 @@
 - Continue testing the live guide and report any mismatches against the v2.0.2 game.
 
 ## Activity log
+
+- 2026-08-27: Enabled documented Egg Moves throughout Team Builder, Future Team, move learner lists, Pokédex move details and build planning. Added Magby's user-confirmed Dizzy Punch as a special `Odd Egg · Route 34 Day Care` acquisition rather than an ordinary breedable Egg Move.
 
 - 2026-08-26: Corrected the official-documentation evolution importer to retain only forward “Evolves into” links and preserve every method condition. Team Builder and Future Team actions now say “Evolve into”; Togepi correctly shows `Level · Friendship 220+`, Togetic shows `Item · Shiny Stone`, and evolved forms no longer offer backward evolution buttons.
 

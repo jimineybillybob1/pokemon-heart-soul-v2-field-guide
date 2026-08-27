@@ -78,9 +78,19 @@ const pokemonIds = new Set(guide.pokemon.map(p => Number(p.id)));
 const pokemonKeys = new Set(guide.pokemon.map(p => norm(p.key)));
 const moveIds = new Set(guide.moves.map(move => Number(move.id)));
 const hiddenPokemonKeys = runtimeOverrides.hiddenPokemonKeys || [];
+const specialMoveAcquisitions = runtimeOverrides.specialMoveAcquisitions || {};
 requireValue(Array.isArray(hiddenPokemonKeys), 'game-overrides hiddenPokemonKeys must be an array.');
 requireValue(new Set(hiddenPokemonKeys.map(norm)).size === hiddenPokemonKeys.length, 'game-overrides hiddenPokemonKeys must be unique.');
 for (const key of hiddenPokemonKeys) requireValue(pokemonKeys.has(norm(key)), `Hidden Pokémon key does not resolve: ${key}.`);
+requireValue(specialMoveAcquisitions && typeof specialMoveAcquisitions === 'object' && !Array.isArray(specialMoveAcquisitions), 'game-overrides specialMoveAcquisitions must be an object.');
+for (const [pokemonKey, entries] of Object.entries(specialMoveAcquisitions)) {
+  requireValue(pokemonKeys.has(norm(pokemonKey)) || pokemonIds.has(Number(pokemonKey)), `Special move Pokémon does not resolve: ${pokemonKey}.`);
+  requireValue(Array.isArray(entries), `${pokemonKey}: specialMoveAcquisitions must be an array.`);
+  for (const entry of entries || []) {
+    requireValue(moveIds.has(Number(entry?.moveId)), `${pokemonKey}: special move ${entry?.moveId} does not resolve.`);
+    requireValue(Boolean(String(entry?.method || '').trim()), `${pokemonKey}: special move ${entry?.moveId} requires an acquisition method.`);
+  }
+}
 for (const moveId of configuredSupplementalMoveIds) requireValue(moveIds.has(moveId), `Supplemental move ${moveId} is missing from the merged guide.`);
 requireValue(Array.isArray(moveTutors.tutors) && Array.isArray(moveTutors.services), 'Move Tutor data requires tutors and services arrays.');
 for (const tutor of moveTutors.tutors || []) {
@@ -106,7 +116,7 @@ for (const pokemon of guide.pokemon) {
   requireValue(Array.isArray(pokemon.stats) && pokemon.stats.length === 6, `${pokemon.key}: stats must contain six values.`);
   if (Array.isArray(pokemon.stats) && Number(pokemon.bst) !== pokemon.stats.reduce((sum, value) => sum + Number(value || 0), 0)) warnings.push(`${pokemon.key}: BST does not equal the six displayed base stats.`);
   for (const edge of pokemon.evolutions || []) if (!pokemonIds.has(Number(edge.targetId))) errors.push(`${pokemon.key}: missing evolution target ${edge.targetId}.`);
-  for (const moveId of [...(pokemon.learnset?.level || []).map(entry => entry.moveId), ...(pokemon.learnset?.tm || []), ...(pokemon.learnset?.tutor || [])]) if (!moveIds.has(Number(moveId))) errors.push(`${pokemon.key}: missing move ${moveId}.`);
+  for (const moveId of [...(pokemon.learnset?.level || []).map(entry => entry.moveId), ...(pokemon.learnset?.tm || []), ...(pokemon.learnset?.tutor || []), ...(pokemon.learnset?.egg || []).map(entry => typeof entry === 'object' ? entry.moveId : entry), ...(pokemon.learnset?.other || []).map(entry => typeof entry === 'object' ? entry.moveId : entry)]) if (!moveIds.has(Number(moveId))) errors.push(`${pokemon.key}: missing move ${moveId}.`);
 }
 
 if (numberedGameDex.length) {

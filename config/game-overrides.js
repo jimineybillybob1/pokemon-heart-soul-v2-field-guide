@@ -7,6 +7,12 @@ window.GUIDE_OVERRIDES = {
   displayNames: {},
   formLabels: {},
   sharedLearnsets: [],
+  // User-confirmed v2.0.2 gift move. The Route 34 script gives Magby through
+  // `giveoddegg 7`; Dizzy Punch is carried by that special Odd Egg Magby and
+  // is not part of Magby's ordinary breedable egg-move table.
+  specialMoveAcquisitions: {
+    Magby: [{moveId: 146, method: 'Odd Egg · Route 34 Day Care'}]
+  },
   encounterMethodOrder: ['Wild', 'Rock Smash / Headbutt', 'Tree', 'Rock', 'Surf', 'Fish', 'Dive'],
   fishingRodOrder: ['Old Rod', 'Good Rod', 'Super Rod'],
   requireFishingRod: true,

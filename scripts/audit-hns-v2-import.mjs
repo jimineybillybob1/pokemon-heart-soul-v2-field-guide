@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import vm from 'node:vm';
 
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const norm = value => String(value ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -9,6 +10,9 @@ const acquisition = read('data/acquisition-data.json');
 const battles = read('data/battle-data.json');
 const tutors = read('data/overrides/move-tutor-data.json');
 const lock = read('sources/source-lock.json');
+const overrideContext = {window: {}};
+vm.runInNewContext(fs.readFileSync('config/game-overrides.js', 'utf8'), overrideContext);
+const specialMoveAcquisitions = overrideContext.window.GUIDE_OVERRIDES?.specialMoveAcquisitions || {};
 const errors = [];
 const check = (condition, message) => { if (!condition) errors.push(message); };
 const duplicates = (records, key) => {
@@ -47,6 +51,7 @@ const togekiss = guide.pokemon.find(pokemon => pokemon.id === 468);
 check(togepi?.evolutions?.length === 1 && togepi.evolutions[0].targetId === 176 && togepi.evolutions[0].method === 'Level · Friendship 220+', 'Togepi evolution must preserve its documented friendship requirement.');
 check(togetic?.evolutions?.length === 1 && togetic.evolutions[0].targetId === 468 && togetic.evolutions[0].method === 'Item · Shiny Stone', 'Togetic must evolve forward to Togekiss with a Shiny Stone.');
 check(togekiss?.evolutions?.length === 0, 'Togekiss must not offer a reverse evolution to Togetic.');
+check(specialMoveAcquisitions.Magby?.some(entry => Number(entry.moveId) === 146 && /Odd Egg/i.test(entry.method)), 'Magby must retain its user-confirmed Odd Egg Dizzy Punch acquisition.');
 
 if (errors.length) {
   errors.forEach(error => console.error(`ERROR: ${error}`));
