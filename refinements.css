@@ -609,6 +609,16 @@ dialog.map-dialog #dialogContent { height:100%;padding:0 }
 .form-row button:hover { background: var(--panel2); }
 .form-placeholder { visibility: hidden; }
 
+.detail-breadcrumbs { display:flex;align-items:center;gap:10px;min-width:0;margin:0 0 18px;padding:0 0 12px;border-bottom:1px solid var(--line) }
+.detail-back { display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 11px;border:1px solid color-mix(in srgb,var(--red) 45%,var(--line));border-radius:10px;background:color-mix(in srgb,var(--red) 8%,var(--panel2));color:var(--text);font-size:10px;font-weight:900;cursor:pointer;white-space:nowrap }
+.detail-back:hover { background:var(--red);color:#fff }
+.detail-back span:first-child { font-size:16px;line-height:1 }
+.detail-breadcrumbs ol { display:flex;align-items:center;min-width:0;margin:0;padding:0;overflow:auto;list-style:none;scrollbar-width:thin }
+.detail-breadcrumbs li { display:flex;align-items:center;min-width:0;color:var(--muted);font-size:9px;font-weight:800;white-space:nowrap }
+.detail-breadcrumbs li+li:before { content:'›';margin:0 7px;color:var(--muted) }
+.detail-breadcrumbs li[aria-current=page] { max-width:180px;overflow:hidden;color:var(--text);text-overflow:ellipsis }
+.detail-breadcrumbs li button { max-width:150px;padding:3px 0;border:0;background:none;color:var(--red);font-size:inherit;font-weight:inherit;overflow:hidden;text-overflow:ellipsis;cursor:pointer }
+.detail-breadcrumbs li button:hover { text-decoration:underline }
 .dialog-actions { float: right; display: flex; align-items: center; gap: 8px; }
 .dialog-actions .dialog-close { float: none; }
 .detail-caught { width: 38px; height: 38px; padding: 4px; }
@@ -616,6 +626,7 @@ dialog.map-dialog #dialogContent { height:100%;padding:0 }
 .detail-form-row button { width: 28px; height: 28px; padding: 0; border: 0; border-radius: 7px; background: transparent; cursor: pointer; }
 .detail-form-row button:hover { background: var(--panel); }
 .detail-form-row span { overflow: hidden; font-size: 9px; font-weight: 850; text-overflow: ellipsis; text-transform: uppercase; white-space: nowrap; }
+@media(max-width:620px){.detail-breadcrumbs{align-items:flex-start;flex-direction:column}.detail-breadcrumbs ol{width:100%}.detail-breadcrumbs li[aria-current=page]{max-width:130px}}
 .pokemon-form-change{display:grid;grid-template-columns:58px minmax(0,1fr) auto;align-items:center;gap:12px;margin:18px 0 2px;padding:12px;border:1px solid color-mix(in srgb,#62a13d 50%,var(--line));border-radius:14px;background:linear-gradient(110deg,color-mix(in srgb,#62a13d 11%,var(--panel2)),var(--panel2))}.pokemon-form-change>img{width:52px;height:52px;object-fit:contain}.pokemon-form-change h3{margin:3px 0 2px;font-size:14px}.pokemon-form-change p{margin:0;color:var(--muted);font-size:8px;line-height:1.5}.pokemon-form-change>button{min-height:38px;padding:7px 11px;border:1px solid #62a13d;border-radius:9px;background:color-mix(in srgb,#62a13d 14%,var(--panel));color:var(--text);font-size:8px;font-weight:900;white-space:nowrap;cursor:pointer}.pokemon-form-change>button:hover{background:#62a13d;color:#fff}@media(max-width:620px){.pokemon-form-change{grid-template-columns:46px 1fr}.pokemon-form-change>img{width:42px;height:42px}.pokemon-form-change>button{grid-column:1/-1;width:100%}}
 .evolutions { margin-top: 24px; }
 .evolutions > h3 { margin-bottom: 10px; }

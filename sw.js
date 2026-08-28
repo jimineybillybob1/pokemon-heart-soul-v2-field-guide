@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pokemon-heart-soul-v2-0-2-core-v8';
+const CACHE_NAME = 'pokemon-heart-soul-v2-0-2-core-v9';
 const CORE_ASSETS = [
   './',
   './index.html',
