@@ -2,6 +2,10 @@ window.GUIDE_OVERRIDES = {
   spriteFallbacks: {},
   formSpriteFallbacks: {},
   hiddenPokemonKeys: [],
+  // The official v2.0.2 player Pokédex assigns numbers 1–476 to the playable
+  // roster. Keep only those species and their documented forms on player-facing
+  // Pokédex and team-selection surfaces; engine data remains for battle records.
+  pokedexOnlyDocumentedDex: true,
   pokemonAliases: {},
   battleSpeciesAliases: {},
   displayNames: {},

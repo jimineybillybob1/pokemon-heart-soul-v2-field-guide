@@ -84,6 +84,10 @@ function activeSpeciesTokens(file) {
 const familyDir = path.join(sourceRoot, 'src', 'data', 'pokemon', 'species_info');
 const activeTokens = new Set(fs.readdirSync(familyDir).filter(name => /^gen_\d+_families\.h$/.test(name)).flatMap(name => activeSpeciesTokens(path.join(familyDir, name))));
 const guide = readJson(path.join(root, 'data', 'guide-data.json'));
+const documentedDexIds = new Set(guide.pokemon
+  .filter(pokemon => Number.isInteger(Number(pokemon.gameDexId)) && Number(pokemon.gameDexId) > 0)
+  .map(pokemon => String(pokemon.dexId)));
+const visiblePokemon = guide.pokemon.filter(pokemon => documentedDexIds.has(String(pokemon.dexId)));
 const sourceTokenAliases = {
   // The guide documentation calls this form “Greninja Bond”; the source uses
   // the active SPECIES_GRENINJA_BATTLE_BOND alias.
@@ -95,7 +99,7 @@ const excluded = guide.pokemon.filter(pokemon => !activeTokens.has(tokenFor(poke
 const documentedTokens = new Set(guide.pokemon.map(tokenFor));
 const sourceOnlyTokens = [...activeTokens].filter(token => !documentedTokens.has(token)).sort();
 const caught = savePath ? new Set(readJson(savePath).caught.map(String)) : new Set();
-const validCaughtKeys = new Set(included.filter(pokemon => Number.isInteger(Number(pokemon.gameDexId)) && Number(pokemon.gameDexId) > 0).map(pokemon => String(pokemon.gameDexId)));
+const validCaughtKeys = new Set(visiblePokemon.filter(pokemon => Number.isInteger(Number(pokemon.gameDexId)) && Number(pokemon.gameDexId) > 0).map(pokemon => String(pokemon.gameDexId)));
 const unresolvedCaught = [...caught].filter(key => !validCaughtKeys.has(key));
 const save = savePath ? readJson(savePath) : null;
 const rosterReferences = save ? [
@@ -103,11 +107,18 @@ const rosterReferences = save ? [
   ...(save.futureTeam || []).map((slot, index) => ({ surface: `future team slot ${index + 1}`, pokemonId: Number(slot.pokemonId) })),
   ...(save.favorites || []).map((slot, index) => ({ surface: `favorite ${index + 1}`, pokemonId: Number(slot.pokemonId) }))
 ].filter(reference => reference.pokemonId) : [];
-const includedIds = new Set(included.map(pokemon => Number(pokemon.id)));
+const includedIds = new Set(visiblePokemon.map(pokemon => Number(pokemon.id)));
 const unresolvedRosterReferences = rosterReferences.filter(reference => !includedIds.has(reference.pokemonId));
 const report = {
   source: { root: sourceRoot, activeSpeciesTokens: activeTokens.size, undocumentedActiveTokens: sourceOnlyTokens },
-  guide: { forms: guide.pokemon.length, included: included.length, excluded: excluded.length },
+  guide: {
+    forms: guide.pokemon.length,
+    included: included.length,
+    excluded: excluded.length,
+    documentedDexEntries: documentedDexIds.size,
+    visibleForms: visiblePokemon.length,
+    hiddenEngineForms: guide.pokemon.length - visiblePokemon.length
+  },
   caught: { supplied: caught.size, valid: caught.size - unresolvedCaught.length, unresolved: unresolvedCaught },
   rosterReferences: { supplied: rosterReferences.length, valid: rosterReferences.length - unresolvedRosterReferences.length, unresolved: unresolvedRosterReferences },
   excluded: excluded.map(pokemon => ({ id: pokemon.id, dexId: pokemon.dexId, key: pokemon.key, name: pokemon.name, sourceKey: pokemon.sourceKey, expectedToken: tokenFor(pokemon) }))
